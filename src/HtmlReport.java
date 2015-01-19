@@ -230,6 +230,17 @@ public class HtmlReport {
 		htmlSeekers.append("</td>");
 		htmlSeekers.append("</tr>");
 
+		htmlSeekers.append("<tr>");
+		htmlSeekers.append("<td width=50%>");
+		htmlSeekers.append("Compare games");
+		htmlSeekers.append("</td>");
+		htmlSeekers.append("<td width=50%>");
+		htmlSeekers.append("<a href='http://www.comparegames.com.br/comprar/"+Util.stringToUrl(nameToSearch)+"'> Clique Aqui </a>");
+		htmlSeekers.append("</td>");
+		htmlSeekers.append("</tr>");
+		
+		
+
 		htmlSeekers.append("</tbody>");
 		
 		htmlSeekers.append("</table>");

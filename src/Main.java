@@ -1,4 +1,5 @@
 import interfaces.search.AmericanasSearch;
+import interfaces.search.BigBoyGamesSearch;
 import interfaces.search.CasasBahiaSearch;
 import interfaces.search.ExtraSearch;
 import interfaces.search.FNACSearch;
@@ -44,20 +45,20 @@ public class Main {
 		
 		List<Shop> shops = getAllShopsConfig();
 		
-		gameListAdress = Util.getProjectPath() + "/resources/gamelist.txt";
+		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
 		
-		/*
 		File gameList = readFile();
-		File cleanGameList = GameListCleaner.clean( gameList );
 		
-		for( String gameName: Util.ler(cleanGameList) ){
+		for( String gameName: Util.ler(gameList) ){
 			System.out.println("Game: "+gameName);
 			generateHtlReport(gameName, shops);
 		}
-		*/
 		
-		String nameToSearch = "Super Smash Bros 3ds";
+		/*
+		String nameToSearch = "Metal Gear Solid Snake eater";
+		
 		generateHtlReport(nameToSearch, shops);
+		*/
 	} 
 		
 	public static void generateHtlReport(String nameToSearch, List<Shop> shops) throws URISyntaxException, IOException{ 
@@ -89,6 +90,7 @@ public class Main {
 		List<Shop> shops = new ArrayList<Shop>();
 
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
+		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );
 		shops.add( new Shop( "Casas Bahia", "http://www.casasbahia.com.br/", "http://buscas.casasbahia.com.br/search?w=<BUSCA>", new CasasBahiaSearch() ) );
 		shops.add( new Shop( "Extra", "http://www.extra.com.br/", "http://buscando.extra.com.br/search?w=<BUSCA>", new ExtraSearch() ) );
 		shops.add( new Shop( "Fast Games", "http://www.fastgames.com.br/", "http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>", new FastGamesSearch() ) );
