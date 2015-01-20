@@ -49,53 +49,50 @@ public class Main {
 		
 		List<Shop> shops = getAllShopsConfig();
 		
-		configurarSaida();
-		
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
 		
 		File gameList = readFile();
 		
 		for( String gameName: Util.ler(gameList) ){
+			configurarSaida(gameName);
 			System.out.println("Game: "+gameName);
 			generateHtlReport(gameName, shops);
 		}
 		/*
-		String nameToSearch = "Fire Emblem";
-		
-		generateHtlReport(nameToSearch, shops);
+		String gameName = "Fire Emblem";
+		configurarSaida(gameName);
+		generateHtlReport(gameName, shops);
 		*/
 	} 
 		
-	private static void configurarSaida() throws FileNotFoundException, IOException {
-		logAdress = Util.getReportsPath() + "/trace.log";
+	private static void configurarSaida(String productName) throws FileNotFoundException, IOException {
+		logAdress = Util.getReportsPath() + "/" + productName + ".log";
 		PrintStream fileStream = new PrintStream( new FileOutputStream( logAdress, false ) );
 		
 		System.setOut(fileStream);
 		System.setErr(fileStream);
-		
 	}
 
 	public static void generateHtlReport(String nameToSearch, List<Shop> shops) throws URISyntaxException, IOException{ 
 		long time = System.currentTimeMillis();
-		
+
 		HtmlReport htmlReport = new HtmlReport();
-		
+
 		String data = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
-		
+
 		DateFormat df = new SimpleDateFormat("HH:mm");
 		Date myDate = new Date(System.currentTimeMillis());
 		String hora = df.format(myDate);
-				
-		 
+
 		for(Shop shop: shops){
 			htmlReport.addReport(shop, shop.searchProduct(nameToSearch, DefaultFilters.containAllWords() ) );
 		}
-		
+
 		htmlReport.addOtherSeekers(nameToSearch);
 		
 		htmlReport.addMetaData(nameToSearch, (System.currentTimeMillis() - time), data, hora);
 		
-		htmlReport.addLogTab( Util.getReportsPath() +"/trace.log" );
+		htmlReport.addLogTab( nameToSearch );
 		
 		htmlReport.closeAndWriteFile(nameToSearch);
 		
@@ -105,6 +102,8 @@ public class Main {
 	private static List<Shop> getAllShopsConfig() {
 		List<Shop> shops = new ArrayList<Shop>();
 
+		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>", new NintendoEShopSearch() ) );
+		
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
 		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );
 		shops.add( new Shop( "Casas Bahia", "http://www.casasbahia.com.br/", "http://buscas.casasbahia.com.br/search?w=<BUSCA>", new CasasBahiaSearch() ) );
@@ -117,7 +116,6 @@ public class Main {
 		shops.add( new Shop( "Magazine Luiza", "http://www.magazineluiza.com.br/", "http://www.magazineluiza.com.br/busca/<BUSCA>/", new MagazineLuizaSearch() ) );
 		shops.add( new Shop( "Mula Games", "http://www.mulagames.com.br/", "http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/<BUSCA>/-/-/-/-/-/", new MulaGamesSearch() ) );
 		shops.add( new Shop( "Net Shoes", "http://www.netshoes.com.br/", "http://www.netshoes.com.br/search?Ntt=<BUSCA>", new NetShoesSearch()) );
-		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>", new NintendoEShopSearch() ) );
 		shops.add( new Shop( "Ponto Frio", "http://www.pontofrio.com.br/", "http://search.pontofrio.com.br/search?w=<BUSCA>", new PontoFrioSearch() ) );
 		shops.add( new Shop( "Ricardo Eletro", "http://www.ricardoeletro.com.br/", "http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>", new RicardoEletroSearch() ) );
 		shops.add( new Shop( "RiHappy", "http://www.rihappy.com.br/", "http://www.rihappy.com.br/<BUSCA>", new RiHappySearch() ) );

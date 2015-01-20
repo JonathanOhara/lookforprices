@@ -16,7 +16,10 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.net.UnknownHostException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.jsoup.Jsoup;
@@ -30,8 +33,21 @@ public class Util {
 	
 	static{
 		try {
+			String data, hora;
+			data = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+			
+			DateFormat df = new SimpleDateFormat("HH");
+			Date myDate = new Date(System.currentTimeMillis());
+			hora = df.format(myDate);
+			
 			projectPath = new File(".").getCanonicalPath();
-			reportsPath = new File("./reports/").getCanonicalPath();
+			
+			File reportFile = new File("./reports/" + data + " " + hora );
+			if( !reportFile.exists() ){
+				reportFile.mkdir();
+			}
+			
+			reportsPath = reportFile.getCanonicalPath();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

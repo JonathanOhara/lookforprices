@@ -313,10 +313,11 @@ public class HtmlReport {
 		htmlMeta.append("<br>\n");
 	}
 
-	public void addLogTab(String string) {
+	public void addLogTab(String productName) {
 		htmlLog = new StringBuilder();
 		
-		htmlLog.append("<iframe src='./trace.log' style='width:100%; height:80%; border: 0px; none;'>\n");
+		System.out.println("");
+		htmlLog.append("<iframe src='./" ).append( productName ).append( ".log' style='width:100%; height:80%; border: 0px; none;'>\n");
 		htmlLog.append("</iframe>\n");
 		
 	}
