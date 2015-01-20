@@ -10,6 +10,7 @@ import interfaces.search.LivrariaCulturaSearch;
 import interfaces.search.MagazineLuizaSearch;
 import interfaces.search.MulaGamesSearch;
 import interfaces.search.NetShoesSearch;
+import interfaces.search.NintendoEShopSearch;
 import interfaces.search.PontoFrioSearch;
 import interfaces.search.RiHappySearch;
 import interfaces.search.RicardoEletroSearch;
@@ -33,6 +34,7 @@ import java.util.Date;
 import java.util.List;
 
 import objects.Shop;
+
 import comom.DefaultFilters;
 import comom.Util;
 
@@ -66,10 +68,10 @@ public class Main {
 		
 	private static void configurarSaida() throws FileNotFoundException, IOException {
 		logAdress = Util.getReportsPath() + "/trace.log";
-		PrintStream fileStream = new PrintStream( new FileOutputStream( logAdress, true ) );
+		PrintStream fileStream = new PrintStream( new FileOutputStream( logAdress, false ) );
 		
-//		System.setOut(fileStream);
-//		System.setErr(fileStream);
+		System.setOut(fileStream);
+		System.setErr(fileStream);
 		
 	}
 
@@ -115,6 +117,7 @@ public class Main {
 		shops.add( new Shop( "Magazine Luiza", "http://www.magazineluiza.com.br/", "http://www.magazineluiza.com.br/busca/<BUSCA>/", new MagazineLuizaSearch() ) );
 		shops.add( new Shop( "Mula Games", "http://www.mulagames.com.br/", "http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/<BUSCA>/-/-/-/-/-/", new MulaGamesSearch() ) );
 		shops.add( new Shop( "Net Shoes", "http://www.netshoes.com.br/", "http://www.netshoes.com.br/search?Ntt=<BUSCA>", new NetShoesSearch()) );
+		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>", new NintendoEShopSearch() ) );
 		shops.add( new Shop( "Ponto Frio", "http://www.pontofrio.com.br/", "http://search.pontofrio.com.br/search?w=<BUSCA>", new PontoFrioSearch() ) );
 		shops.add( new Shop( "Ricardo Eletro", "http://www.ricardoeletro.com.br/", "http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>", new RicardoEletroSearch() ) );
 		shops.add( new Shop( "RiHappy", "http://www.rihappy.com.br/", "http://www.rihappy.com.br/<BUSCA>", new RiHappySearch() ) );

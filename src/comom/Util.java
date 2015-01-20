@@ -44,11 +44,9 @@ public class Util {
 		List<String> stringList = new ArrayList<String>();
 		
 		while (true) {
-			if (linha == null)
-				break;
+			if (linha == null) break;
 			linha = buffRead.readLine();
-			stringList.add(linha);
-			
+			if (linha != null) stringList.add(linha);
 		}
 		
 		buffRead.close();
@@ -70,6 +68,7 @@ public class Util {
 	}
 	
 	public static Document readUrlDocument(String url) throws IOException{
+		System.out.println(url);
 		Document doc = null;
 		try{
 			doc = Jsoup.connect(url)
