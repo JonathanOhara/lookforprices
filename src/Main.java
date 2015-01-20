@@ -53,9 +53,8 @@ public class Main {
 			System.out.println("Game: "+gameName);
 			generateHtlReport(gameName, shops);
 		}
-		
 		/*
-		String nameToSearch = "Metal Gear Solid Snake eater";
+		String nameToSearch = "Fire Emblem";
 		
 		generateHtlReport(nameToSearch, shops);
 		*/
