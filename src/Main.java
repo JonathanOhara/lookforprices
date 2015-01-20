@@ -21,7 +21,10 @@ import interfaces.search.SubmarinoSearch;
 import interfaces.search.WalmartSearch;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.net.URISyntaxException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -30,7 +33,6 @@ import java.util.Date;
 import java.util.List;
 
 import objects.Shop;
-
 import comom.DefaultFilters;
 import comom.Util;
 
@@ -39,11 +41,13 @@ public class Main {
 
 	//private final static String gameListAdress = "C:/java/rep/LookForPrices/resources/gamelist.txt";
 	private static String gameListAdress = "";
-	
+	private static String logAdress = "";
 	
 	public static void main(String[] args) throws IOException, URISyntaxException {
 		
 		List<Shop> shops = getAllShopsConfig();
+		
+		configurarSaida();
 		
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
 		
@@ -60,6 +64,15 @@ public class Main {
 		*/
 	} 
 		
+	private static void configurarSaida() throws FileNotFoundException, IOException {
+		logAdress = Util.getReportsPath() + "/trace.log";
+		PrintStream fileStream = new PrintStream( new FileOutputStream( logAdress, true ) );
+		
+//		System.setOut(fileStream);
+//		System.setErr(fileStream);
+		
+	}
+
 	public static void generateHtlReport(String nameToSearch, List<Shop> shops) throws URISyntaxException, IOException{ 
 		long time = System.currentTimeMillis();
 		
@@ -79,6 +92,8 @@ public class Main {
 		htmlReport.addOtherSeekers(nameToSearch);
 		
 		htmlReport.addMetaData(nameToSearch, (System.currentTimeMillis() - time), data, hora);
+		
+		htmlReport.addLogTab( Util.getReportsPath() +"/trace.log" );
 		
 		htmlReport.closeAndWriteFile(nameToSearch);
 		

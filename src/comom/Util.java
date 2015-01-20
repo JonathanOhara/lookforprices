@@ -24,6 +24,20 @@ import org.jsoup.nodes.Document;
 
 
 public class Util {
+	
+	private static String projectPath = null;
+	private static String reportsPath = null;
+	
+	static{
+		try {
+			projectPath = new File(".").getCanonicalPath();
+			reportsPath = new File("./reports/").getCanonicalPath();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
 	public static List<String> ler(File file) throws IOException { 
 		BufferedReader buffRead = new BufferedReader(new FileReader(file));
 		String linha = "";
@@ -43,8 +57,13 @@ public class Util {
 	}
 	
 	public static String getProjectPath() throws IOException{
-		return new File(".").getCanonicalPath();
+		return projectPath;
 	}
+	
+	public static String getReportsPath() throws IOException{
+		return reportsPath;
+	}
+	
 
 	public static String stringToUrl(String urlStr) throws MalformedURLException, URISyntaxException{
 		return URLEncoder.encode(urlStr);
