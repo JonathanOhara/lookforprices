@@ -1,0 +1,5 @@
+Game: donkey kong country returns
+Loja: Nintendo eShop
+	URL Principal: http://www.nintendo.com/3ds/eshop
+	URL Busca: http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>
+NintendoEShopSearch.search() http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=donkey+kong+country+returns

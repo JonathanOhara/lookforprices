@@ -1,6 +1,7 @@
 import interfaces.search.AmericanasSearch;
 import interfaces.search.BigBoyGamesSearch;
 import interfaces.search.CasasBahiaSearch;
+import interfaces.search.EVirtuaSearch;
 import interfaces.search.ExtraSearch;
 import interfaces.search.FNACSearch;
 import interfaces.search.FastGamesSearch;
@@ -52,17 +53,16 @@ public class Main {
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
 		
 		File gameList = readFile();
-		
+		/*
 		for( String gameName: Util.ler(gameList) ){
 			configurarSaida(gameName);
 			System.out.println("Game: "+gameName);
 			generateHtlReport(gameName, shops);
 		}
-		/*
-		String gameName = "Fire Emblem";
+		*/
+		String gameName = "2ds";
 		configurarSaida(gameName);
 		generateHtlReport(gameName, shops);
-		*/
 	} 
 		
 	private static void configurarSaida(String productName) throws FileNotFoundException, IOException {
@@ -101,13 +101,14 @@ public class Main {
 	
 	private static List<Shop> getAllShopsConfig() {
 		List<Shop> shops = new ArrayList<Shop>();
-
-		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>", new NintendoEShopSearch() ) );
 		
+		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>", new NintendoEShopSearch() ) );
+
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
 		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );
 		shops.add( new Shop( "Casas Bahia", "http://www.casasbahia.com.br/", "http://buscas.casasbahia.com.br/search?w=<BUSCA>", new CasasBahiaSearch() ) );
 		shops.add( new Shop( "Extra", "http://www.extra.com.br/", "http://buscando.extra.com.br/search?w=<BUSCA>", new ExtraSearch() ) );
+		shops.add( new Shop( "E-Virtua", "http://www.evirtua.com.br/", "http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>", new EVirtuaSearch() ) );
 		shops.add( new Shop( "Fast Games", "http://www.fastgames.com.br/", "http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>", new FastGamesSearch() ) );
 		shops.add( new Shop( "Fast Shop", "http://www.fastshop.com.br/loja/", "http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop", new FastShopSearch() ) );
 		shops.add( new Shop( "FNAC", "http://www.fnac.com.br/index.html", "http://busca.fnac.com.br/?busca=<BUSCA>", new FNACSearch() ) );

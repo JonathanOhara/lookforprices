@@ -1,0 +1,33 @@
+Loja: Nintendo eShop
+	URL Principal: http://www.nintendo.com/3ds/eshop
+	URL Busca: http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>
+NintendoEShopSearch.search() http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=Fire+Emblem
+		Documento Lido
+		Resultados: 5
+		Nome do Produto: Code Name S.T.E.A.M.
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Fire Emblem
+http://www.nintendo.com/games/detail/2ftO9Q5JYqfowOmxJcf_5cpDcBQpv0wV
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/2ftO9Q5JYqfowOmxJcf_5cpDcBQpv0wV
+		Nome do Produto: Fire Emblem Awakening
+http://www.nintendo.com/games/detail/RA8x8DpfGnpmGXJNA192lB0EY1KM5Eb2
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/RA8x8DpfGnpmGXJNA192lB0EY1KM5Eb2
+		Nome do Produto: Fire Emblem: Shadow Dragon
+http://www.nintendo.com/games/detail/e-L8Ef-90QCikWEg57tfmlUTKSbchSIF
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/e-L8Ef-90QCikWEg57tfmlUTKSbchSIF
+		Nome do Produto: Fire Emblem: Radiant Dawn
+http://www.nintendo.com/games/detail/DKHSzW3PYeScuc_V_55g4GH4cwXaL--V
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/DKHSzW3PYeScuc_V_55g4GH4cwXaL--V
+	Tempo Para buscar: 2410
+Loja: Americanas
+	URL Principal: http://www.americanas.com.br/
+	URL Busca: http://busca.americanas.com.br/busca.php?q=<BUSCA>
+http://busca.americanas.com.br/busca.php?q=Fire+Emblem
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Game Fire Emblem Shadow Dragon DS
+http://busca.americanas.com.br/produto.php?link=http://www.americanas.com.br/produto/6841814/game-fire-emblem-shadow-dragon-ds&ranking=1&sessao=U0V1AKH3MZ487&idbusca=a8aa60d24c9df136f54e6aca9046228920ba20cc&idproduto=6841814
