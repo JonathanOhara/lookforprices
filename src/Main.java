@@ -53,16 +53,16 @@ public class Main {
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
 		
 		File gameList = readFile();
-		/*
 		for( String gameName: Util.ler(gameList) ){
 			configurarSaida(gameName);
 			System.out.println("Game: "+gameName);
 			generateHtlReport(gameName, shops);
 		}
-		*/
+		/*
 		String gameName = "Pokemon Platinum";
 		configurarSaida(gameName);
 		generateHtlReport(gameName, shops);
+		*/
 	} 
 		
 	private static void configurarSaida(String productName) throws FileNotFoundException, IOException {
