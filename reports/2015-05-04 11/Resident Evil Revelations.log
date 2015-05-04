@@ -1,0 +1,940 @@
+Game: Resident Evil Revelations
+Loja: Nintendo eShop
+	URL Principal: http://www.nintendo.com/3ds/eshop
+	URL Busca: http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>
+NintendoEShopSearch.search() http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 3
+		Nome do Produto: Resident Evil Revelations
+http://www.nintendo.com/games/detail/XkJsnA3RX3B7nlP_LdTvZQDRm0yeFMLo
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/XkJsnA3RX3B7nlP_LdTvZQDRm0yeFMLo
+		Nome do Produto: Resident Evil Revelations
+http://www.nintendo.com/games/detail/sv0drfht5St0wc6G2GzSE3eBRj0CYzd-
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/sv0drfht5St0wc6G2GzSE3eBRj0CYzd-
+		Nome do Produto: Resident Evil: The Mercenaries 3D
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1211
+Loja: Americanas
+	URL Principal: http://www.americanas.com.br/
+	URL Busca: http://busca.americanas.com.br/busca.php?q=<BUSCA>
+http://busca.americanas.com.br/busca.php?q=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 25
+		Nome do Produto: Game Resident Evil: Revelations - PS3
+http://busca.americanas.com.br/produto.php?link=http://www.americanas.com.br/produto/113266497/game-resident-evil-revelations-ps3&ranking=1&sessao=U70MZJ6789W07&idbusca=e9404a0d2cf249606b49df4d5ceba827fb86d8c4&idproduto=113266497
+		Acessando URL do produto.
+java.lang.NullPointerException
+	at interfaces.search.AmericanasSearch.readEachProduct(AmericanasSearch.java:76)
+	at interfaces.search.AmericanasSearch.search(AmericanasSearch.java:39)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+	Tempo Para buscar: 1202
+Loja: Big Boy Games
+	URL Principal: http://www.bigboygames.com.br/
+	URL Busca: http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>
+http://www.bigboygames.com.br/pesquisa/?p=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 8
+		Nome do Produto: PS3 - Resident Evil Revelations 2
+http://www.bigboygames.com.br/ps3-resident-evil-revelations-2-p6936/
+		Acessando URL do produto.
+		Nome do Produto: PS4 - Resident Evil Revelations 2
+http://www.bigboygames.com.br/ps4-resident-evil-revelations-2-p6934/
+		Acessando URL do produto.
+		Nome do Produto: Xbox 360 - Resident Evil Revelations 2
+http://www.bigboygames.com.br/xbox-360-resident-evil-revelations-2-p6937/
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations - WiiU
+http://www.bigboygames.com.br/resident-evil-revelations-wiiu-p5209/
+		Acessando URL do produto.
+		Nome do Produto: 3DS - Resident Evil Revelations
+http://www.bigboygames.com.br/3ds-resident-evil-revelations-p3663/
+		Acessando URL do produto.
+		Nome do Produto: Xbox One - Resident Evil Revelations 2
+http://www.bigboygames.com.br/xbox-one-resident-evil-revelations-2-p6935/
+		Acessando URL do produto.
+		Nome do Produto: Xbox 360 - Resident Evil Revelations
+http://www.bigboygames.com.br/xbox-360-resident-evil-revelations-p4965/
+		Acessando URL do produto.
+		Nome do Produto: PS3 - Resident Evil Revelations
+http://www.bigboygames.com.br/ps3-resident-evil-revelations-p4964/
+		Acessando URL do produto.
+	Tempo Para buscar: 5879
+Loja: Casas Bahia
+	URL Principal: http://www.casasbahia.com.br/
+	URL Busca: http://buscas.casasbahia.com.br/search?w=<BUSCA>
+http://buscas.casasbahia.com.br/search?w=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS4
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4286985%3f&rk=1&uid=51273258&sid=2&ts=custom&rsc=fzRdV9m3TRFWhBEQ&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS3
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4286984%3f&rk=2&uid=51273258&sid=2&ts=custom&rsc=XQyLCB6cMT9DL3BI&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox 360
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4286986%3f&rk=3&uid=51273258&sid=2&ts=custom&rsc=mmHl3f9og7twFO13&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox One
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4286987%3f&rk=4&uid=51273258&sid=2&ts=custom&rsc=bVCxbR-Bd7Ag42SS&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2: Full Bundle para Download - PC
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4688042%3f&rk=5&uid=51273258&sid=2&ts=custom&rsc=nCzci0cyiVIctqN7&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations - PS3
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f2067452%3f&rk=6&uid=51273258&sid=2&ts=custom&rsc=gPbP99OmFupnPcSr&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations Xbox 360
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f3113640%3f&rk=7&uid=51273258&sid=2&ts=custom&rsc=A6woYwnB8F6ai38y&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations para Download - PC
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f2067404%3f&rk=8&uid=51273258&sid=2&ts=custom&rsc=uf-A4BHdLHbxOeWq&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations Wii U
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f3114915%3f&rk=9&uid=51273258&sid=2&ts=custom&rsc=pjDexjohtEO%3ab8sm&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations - 3DS
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f2939433%3f&rk=10&uid=51273258&sid=2&ts=custom&rsc=z%3aFtTGDsJkp6PtrA&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2 EP 1: Penal Colony para Download - PC
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4688043%3f&rk=11&uid=51273258&sid=2&ts=custom&rsc=9IrWzlJfadL%3aesxs&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2: Complete Season para Download - PC
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f4688041%3f&rk=12&uid=51273258&sid=2&ts=custom&rsc=2RdTeHYn8tuhCMYy&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 Xbox One + Xbox Live Gold - 3 Meses
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f1000053591%3f&rk=13&uid=51273258&sid=2&ts=custom&rsc=szgHrPHbHBwlvVCe&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 Xbox 360 + Xbox Live Gold - 3 Meses
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USESD02&lbc=casasbahia&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.casasbahia.com.br%2f1000053592%3f&rk=14&uid=51273258&sid=2&ts=custom&rsc=ayjV1tZu26yv344G&method=and&isort=score&view=grid
+		Acessando URL do produto.
+	Tempo Para buscar: 35540
+Loja: Extra
+	URL Principal: http://www.extra.com.br/
+	URL Busca: http://buscando.extra.com.br/search?w=<BUSCA>
+http://buscando.extra.com.br/search?w=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 12
+		Nome do Produto: Jogo Resident Evil: Revelations - PS3
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f2067452%3f&rk=1&uid=513093160&sid=2&ts=custom&rsc=v--O84Jkk-i-wFkZ&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox One
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4286987%3f&rk=2&uid=513093160&sid=2&ts=custom&rsc=ykQa8K66C0QqI%3akO&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox 360
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4286986%3f&rk=3&uid=513093160&sid=2&ts=custom&rsc=MggbX8zGzUbVu2h9&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS3
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4286984%3f&rk=4&uid=513093160&sid=2&ts=custom&rsc=y1P4EIstiLwgqF-T&method=and&isort=score&view=grid
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:453)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:475)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:475)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.ExtraSearch.readEachProduct(ExtraSearch.java:70)
+	at interfaces.search.ExtraSearch.search(ExtraSearch.java:38)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+Tentando conectar Na Url de outro modo
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations Xbox 360
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f3113640%3f&rk=5&uid=513093160&sid=2&ts=custom&rsc=XCs7poYuPsA05DSv&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS4
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4286985%3f&rk=6&uid=513093160&sid=2&ts=custom&rsc=mJzHbomJnxTr8kwv&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations Wii U
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f3114915%3f&rk=7&uid=513093160&sid=2&ts=custom&rsc=-Dd0vJ7upoilA2G-&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations para Download - PC
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f2067404%3f&rk=8&uid=513093160&sid=2&ts=custom&rsc=o10Bp5TABW3rBoZF&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations - 3DS
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f2939433%3f&rk=9&uid=513093160&sid=2&ts=custom&rsc=v9cwCDFWp5vsgzoK&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2 EP 1: Penal Colony para Download - PC
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4688043%3f&rk=10&uid=513093160&sid=2&ts=custom&rsc=RCcMyR%3azGGvDztMI&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2: Complete Season para Download - PC
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4688041%3f&rk=11&uid=513093160&sid=2&ts=custom&rsc=kCiXPHtIDZ4R6Ajy&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2: Full Bundle para Download - PC
+http://buscando.extra.com.br/search?p=R&srid=S1-USWSD01&lbc=extra&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.extra.com.br%2f4688042%3f&rk=12&uid=513093160&sid=2&ts=custom&rsc=hS9QA1-5gR%3a-Tes6&method=and&isort=score&view=grid
+		Acessando URL do produto.
+	Tempo Para buscar: 53975
+Loja: E-Virtua
+	URL Principal: http://www.evirtua.com.br/
+	URL Busca: http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>
+http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 9
+		Nome do Produto: Resident Evil Revelations - PC
+http://www.evirtua.com.br//resident-evil-revelations-pc/3211-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations -Wii U
+http://www.evirtua.com.br//resident-evil-revelationswii-u/3172-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - 3DS
+http://www.evirtua.com.br//resident-evil-revelations-3ds/2960-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - PS3
+http://www.evirtua.com.br//resident-evil-revelations-ps3/3164-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - Xbox 360
+http://www.evirtua.com.br//resident-evil-revelations-xbox-360/3165-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - PS3 - Legendado em Português
+http://www.evirtua.com.br//resident-evil-revelations-2-ps3-legendado-em-portugues/3702-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - PS4 - Legendado em português
+http://www.evirtua.com.br//resident-evil-revelations-2-ps4-legendado-em-portugues/3700-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - XBOX 360 - Legendado em Português
+http://www.evirtua.com.br//resident-evil-revelations-2-xbox-360-legendado-em-portugues/3703-01
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - XBOX ONE - Legendado em português
+http://www.evirtua.com.br//resident-evil-revelations-2-xbox-one-legendado-em-portugues/3701-01
+		Acessando URL do produto.
+	Tempo Para buscar: 2334
+Loja: Fast Games
+	URL Principal: http://www.fastgames.com.br/
+	URL Busca: http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>
+http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 11
+		Nome do Produto: Circle Pad Pro - 3DS
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Nintendo New 3DS XL Black (Preto)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Nintendo New 3DS XL Red (Vermelho)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resident Evil: Revelations (Seminovo) - PS3
+http://www.fastgames.com.br//resident-evil-revelations-seminovo-ps3-pr-6918-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - PS3
+http://www.fastgames.com.br//resident-evil-revelations-ps3-pr-5851-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - Wii U
+http://www.fastgames.com.br//resident-evil-revelations-wii-u-pr-6513-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - XBOX 360
+http://www.fastgames.com.br//resident-evil-revelations-xbox-360-pr-5853-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - PS3
+http://www.fastgames.com.br//resident-evil-revelations-2-ps3-pr-9310-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - PS4
+http://www.fastgames.com.br//resident-evil-revelations-2-ps4-pr-9306-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - XBOX 360
+http://www.fastgames.com.br//resident-evil-revelations-2-xbox-360-pr-9312-187970.htm
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - XBOX One
+http://www.fastgames.com.br//resident-evil-revelations-2-xbox-one-pr-9308-187970.htm
+		Acessando URL do produto.
+	Tempo Para buscar: 10189
+Loja: Fast Shop
+	URL Principal: http://www.fastshop.com.br/loja/
+	URL Busca: http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop
+http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=Resident+Evil+Revelations&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 518
+Loja: FNAC
+	URL Principal: http://www.fnac.com.br/index.html
+	URL Busca: http://busca.fnac.com.br/?busca=<BUSCA>
+http://busca.fnac.com.br/?busca=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 16
+		Nome do Produto: Ps3 Resident Evil: Revelations
+http://busca.FNAC.com.br/Busca/Redir?url=http%3a%2f%2fwww.FNAC.com.br%2fps3-resident-evil-revelations%2fp%2f636399&esid=636399
+		Acessando URL do produto.
+		Nome do Produto: Ps4 Resident Evil Revelations 2
+http://busca.FNAC.com.br/Busca/Redir?url=http%3a%2f%2fwww.FNAC.com.br%2fps4-resident-evil-revelations-2%2fp%2f678284&esid=678284
+		Acessando URL do produto.
+		Nome do Produto: Xbox One Resident Evil Revelations 2
+http://busca.FNAC.com.br/Busca/Redir?url=http%3a%2f%2fwww.FNAC.com.br%2fxbox-one-resident-evil-revelations-2%2fp%2f678287&esid=678287
+		Acessando URL do produto.
+		Nome do Produto: Ps3 Resident Evil Revelations 2
+http://busca.FNAC.com.br/Busca/Redir?url=http%3a%2f%2fwww.FNAC.com.br%2fps3-resident-evil-revelations-2%2fp%2f678281&esid=678281
+		Acessando URL do produto.
+		Nome do Produto: Xbox 360 Resident Evil Revelations 2
+http://busca.FNAC.com.br/Busca/Redir?url=http%3a%2f%2fwww.FNAC.com.br%2fxbox-360-resident-evil-revelations-2%2fp%2f678285&esid=678285
+		Acessando URL do produto.
+		Nome do Produto: Xbox 360 Resident Evil: Revelations
+http://busca.FNAC.com.br/Busca/Redir?url=http%3a%2f%2fwww.FNAC.com.br%2fxbox-360-resident-evil-revelations%2fp%2f636401&esid=636401
+		Acessando URL do produto.
+	Tempo Para buscar: 5333
+Loja: Kabum
+	URL Principal: http://www.kabum.com.br/
+	URL Busca: http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=<BUSCA>&btnG=
+http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=Resident+Evil+Revelations&btnG=
+		Documento Lido
+		Resultados: 5
+		Nome do Produto: Game Resident Evil: Revelations 2 PS4
+http://www.kabum.com.br/produto/62072/game-resident-evil-revelations-2-ps4-/?tag=Resident Evil Revelations
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations 2 Xbox 360
+http://www.kabum.com.br/produto/62075/game-resident-evil-revelations-2-xbox-360/?tag=Resident Evil Revelations
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations 2 PS3
+http://www.kabum.com.br/produto/62073/game-resident-evil-revelations-2-ps3/?tag=Resident Evil Revelations
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations Xbox 360
+http://www.kabum.com.br/produto/41635/game-resident-evil-revelations-xbox-360/?tag=Resident Evil Revelations
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations PS3
+http://www.kabum.com.br/produto/41636/game-resident-evil-revelations-ps3/?tag=Resident Evil Revelations
+		Acessando URL do produto.
+	Tempo Para buscar: 2520
+Loja: Livraria Cultura
+	URL Principal: http://www.livrariacultura.com.br/
+	URL Busca: http://www.livrariacultura.com.br/busca?N=0&Ntt=<BUSCA>
+http://www.livrariacultura.com.br/busca?N=0&Ntt=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 17
+		Nome do Produto: RESIDENT EVIL REVELATIONS 2 (PS4)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-2-ps4-42863541
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL REVELATIONS 2 (PS3)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-2-ps3-42863538
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL REVELATIONS 2 (XONE)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-2-xone-42863550
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL - REVELATIONS (X360)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-x360-42110630
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL REVELATIONS
+http://www.livrariacultura.com.br/p/resident-evil-revelations-42812180
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL REVELATIONS: ULTIMATE GUIDE
+http://www.livrariacultura.com.br/p/resident-evil-revelations-ultimate-guide-82117663
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL 6 68 SUCCESS SECRETS - 68 MOST
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: RESIDENT EVIL 283 SUCCESS SECRETS - 283 MOST
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: REVELATIONS
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: RESIDENT DEPUTY SHERIFF
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: CIRCLE PAD PRO - NINTENDO 3DS
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: GAME FREAKS 365'S NINTENDO 3DS GUIDE
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: BLACKWOOD'S EDINBURGH MAGAZINE, VOL. 67, NO.
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: RESIDENT EVIL - REVELATIONS (PS3)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-ps3-42110625
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL REVELATIONS 2 (X360)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-2-x360-42863548
+		Acessando URL do produto.
+		Nome do Produto: RESIDENT EVIL - REVELATIONS (3DS)
+http://www.livrariacultura.com.br/p/resident-evil-revelations-3ds-29480524
+		Acessando URL do produto.
+		Nome do Produto: GAME FREAKS 365'S NINTENDO 3DS GUIDE
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 3777
+Loja: Magazine Luiza
+	URL Principal: http://www.magazineluiza.com.br/
+	URL Busca: http://www.magazineluiza.com.br/busca/<BUSCA>/
+http://www.magazineluiza.com.br/busca/Resident+Evil+Revelations/
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:453)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.MagazineLuizaSearch.readResults(MagazineLuizaSearch.java:92)
+	at interfaces.search.MagazineLuizaSearch.search(MagazineLuizaSearch.java:30)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+Tentando conectar Na Url de outro modo
+		Documento Lido
+		Resultados: 7
+		Nome do Produto: Resident Evil Revelations para Xbox 360 - Capcom
+http://www.magazineluiza.com.br//resident-evil-revelations-para-xbox-360-capcom/p/0884195/ga/gajx/?_b=Resident+Evil+Revelations
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:453)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.MagazineLuizaSearch.readEachProduct(MagazineLuizaSearch.java:73)
+	at interfaces.search.MagazineLuizaSearch.search(MagazineLuizaSearch.java:38)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+Tentando conectar Na Url de outro modo
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://www.magazineluiza.com.br//resident-evil-revelations-para-xbox-360-capcom/p/0884195/ga/gajx/?_b=Resident+Evil+Revelations
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at comom.Util.getPageBuffer(Util.java:138)
+	at comom.Util.readUrl(Util.java:106)
+	at comom.Util.readUrlDocument(Util.java:98)
+	at interfaces.search.MagazineLuizaSearch.readEachProduct(MagazineLuizaSearch.java:73)
+	at interfaces.search.MagazineLuizaSearch.search(MagazineLuizaSearch.java:38)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+		Acessando URL do produto.
+java.lang.NullPointerException
+	at interfaces.search.MagazineLuizaSearch.readEachProduct(MagazineLuizaSearch.java:78)
+	at interfaces.search.MagazineLuizaSearch.search(MagazineLuizaSearch.java:38)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+	Tempo Para buscar: 94882
+Loja: Mula Games
+	URL Principal: http://www.mulagames.com.br/
+	URL Busca: http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/<BUSCA>/-/-/-/-/-/
+http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/Resident%20Evil%20Revelations/-/-/-/-/-/
+		Documento Lido
+		Resultados: 8
+		Nome do Produto: Resident Evil: Revelations (em Portugues) - XBox 360
+http://www.mulagames.com.br/Resident-Evil--Revelations--em-Portugues--XBox-360/prod-1396106/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/1396106
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations - 3DS
+http://www.mulagames.com.br/Resident-Evil--Revelations-3DS/prod-457773/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/457773
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations (em Portugues) - Wii U
+http://www.mulagames.com.br/Resident-Evil--Revelations--em-Portugues--Wii-U/prod-2750982/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/2750982
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations (em Portugues) - PS3
+http://www.mulagames.com.br/Resident-Evil--Revelations--em-Portugues--PS3/prod-1396078/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/1396078
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations 2 (em Portugues) - XBox One
+http://www.mulagames.com.br/Resident-Evil--Revelations-2--em-Portugues--XBox-One/prod-2619776/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/2619776
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations 2 (em Portugues) - PS3
+http://www.mulagames.com.br/Resident-Evil--Revelations-2--em-Portugues--PS3/prod-2619798/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/2619798
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations 2 (em Portugues) - XBox 360
+http://www.mulagames.com.br/Resident-Evil--Revelations-2--em-Portugues--XBox-360/prod-2619804/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/2619804
+		Acessando URL do preço produto.
+		Nome do Produto: Resident Evil: Revelations 2 (em Portugues) - PS4
+http://www.mulagames.com.br/Resident-Evil--Revelations-2--em-Portugues--PS4/prod-2619760/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/2619760
+		Acessando URL do preço produto.
+	Tempo Para buscar: 14285
+Loja: Net Shoes
+	URL Principal: http://www.netshoes.com.br/
+	URL Busca: http://www.netshoes.com.br/search?Ntt=<BUSCA>
+http://www.netshoes.com.br/search?Ntt=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 120
+Loja: Ponto Frio
+	URL Principal: http://www.pontofrio.com.br/
+	URL Busca: http://search.pontofrio.com.br/search?w=<BUSCA>
+http://search.pontofrio.com.br/search?w=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Resident Evil Revelations Xbox 360
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f3113640%3f&rk=1&uid=514976219&sid=2&ts=custom&rsc=WXTFlObOnkhr%3asWl&method=and&isort=score&view=grid
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=500, URL=http://www.pontofrio.com.br/Games/Xbox360/JogosXbox360/Resident-Evil-Revelations-Xbox-360-3113640.html
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:459)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:475)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:475)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.PontoFrioSearch.readEachProduct(PontoFrioSearch.java:76)
+	at interfaces.search.PontoFrioSearch.search(PontoFrioSearch.java:39)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:88)
+	at Main.main(Main.java:59)
+Tentando conectar Na Url de outro modo
+		Nome do Produto: Jogo Resident Evil: Revelations 2 Xbox 360 + Xbox Live Gold - 3 Meses
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f1000053592%3f&rk=2&uid=514976219&sid=2&ts=custom&rsc=OPOzt285zi8IKHmK&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS4
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286985%3f&rk=3&uid=514976219&sid=2&ts=custom&rsc=6l0b78wf%3aa9GtgmW&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS3
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286984%3f&rk=4&uid=514976219&sid=2&ts=custom&rsc=7Hd9fKaq6XyxCiw1&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox 360
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286986%3f&rk=5&uid=514976219&sid=2&ts=custom&rsc=0c6yHukdTzCjocqt&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil: Revelations para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f2067404%3f&rk=6&uid=514976219&sid=2&ts=custom&rsc=wMC4uhvC-EU-LcT7&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox One
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286987%3f&rk=7&uid=514976219&sid=2&ts=custom&rsc=Nf92UxjRGfeuzBOp&method=and&isort=score&view=grid
+		Nome do Produto: Resident Evil Revelations Wii U
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f3114915%3f&rk=8&uid=514976219&sid=2&ts=custom&rsc=%3a7KT0tUOuA9Lgt5m&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations - 3DS
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f2939433%3f&rk=9&uid=514976219&sid=2&ts=custom&rsc=v%3ahuqybzwysWfQFV&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations 2 EP 1: Penal Colony para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4688043%3f&rk=10&uid=514976219&sid=2&ts=custom&rsc=Dn8WFA3dQPI%3aq4LZ&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations 2: Complete Season para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4688041%3f&rk=11&uid=514976219&sid=2&ts=custom&rsc=EWEuoo9vn3nXlWQL&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations 2: Full Bundle para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4688042%3f&rk=12&uid=514976219&sid=2&ts=custom&rsc=aScQxi4Yh5xEc0Ov&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 Xbox One + Xbox Live Gold - 3 Meses
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f1000053591%3f&rk=13&uid=514976219&sid=2&ts=custom&rsc=oBgtR0slsfBxIsOJ&method=and&isort=score&view=grid
+		Nome do Produto: Resident Evil Revelations Xbox 360
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f3113640%3f&rk=1&uid=514976219&sid=2&ts=custom&rsc=WXTFlObOnkhr%3asWl&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 Xbox 360 + Xbox Live Gold - 3 Meses
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f1000053592%3f&rk=2&uid=514976219&sid=2&ts=custom&rsc=OPOzt285zi8IKHmK&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS4
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286985%3f&rk=3&uid=514976219&sid=2&ts=custom&rsc=6l0b78wf%3aa9GtgmW&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - PS3
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286984%3f&rk=4&uid=514976219&sid=2&ts=custom&rsc=7Hd9fKaq6XyxCiw1&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox 360
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286986%3f&rk=5&uid=514976219&sid=2&ts=custom&rsc=0c6yHukdTzCjocqt&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil: Revelations para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f2067404%3f&rk=6&uid=514976219&sid=2&ts=custom&rsc=wMC4uhvC-EU-LcT7&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 - Xbox One
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4286987%3f&rk=7&uid=514976219&sid=2&ts=custom&rsc=Nf92UxjRGfeuzBOp&method=and&isort=score&view=grid
+		Nome do Produto: Resident Evil Revelations Wii U
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f3114915%3f&rk=8&uid=514976219&sid=2&ts=custom&rsc=%3a7KT0tUOuA9Lgt5m&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations - 3DS
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f2939433%3f&rk=9&uid=514976219&sid=2&ts=custom&rsc=v%3ahuqybzwysWfQFV&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations 2 EP 1: Penal Colony para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4688043%3f&rk=10&uid=514976219&sid=2&ts=custom&rsc=Dn8WFA3dQPI%3aq4LZ&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations 2: Complete Season para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4688041%3f&rk=11&uid=514976219&sid=2&ts=custom&rsc=EWEuoo9vn3nXlWQL&method=and&isort=score&view=grid
+		Nome do Produto: Game Resident Evil Revelations 2: Full Bundle para Download - PC
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f4688042%3f&rk=12&uid=514976219&sid=2&ts=custom&rsc=aScQxi4Yh5xEc0Ov&method=and&isort=score&view=grid
+		Nome do Produto: Jogo Resident Evil: Revelations 2 Xbox One + Xbox Live Gold - 3 Meses
+http://search.pontofrio.com.br/search?p=R&srid=S3-USCDR01&lbc=pontofrio-br&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fproduto.pontofrio.com.br%2f1000053591%3f&rk=13&uid=514976219&sid=2&ts=custom&rsc=oBgtR0slsfBxIsOJ&method=and&isort=score&view=grid
+	Tempo Para buscar: 40801
+Loja: Ricardo Eletro
+	URL Principal: http://www.ricardoeletro.com.br/
+	URL Busca: http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>
+http://www.ricardoeletro.com.br/Busca/Resultado/?q=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 8
+		Nome do Produto: Jogo Resident Evil: Revelations 2 para Playstation 3 (PS3)
+http://www.ricardoeletro.com.br/Produto/Jogo-Resident-Evil-Revelations-2-para-Playstation-3-PS3/47-213-217-512008
+		Acessando URL do produto.
+		Nome do Produto: Jogo The Evil Within para Playstation 4 (PS4)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Playstation 4 (PS4) 500GB HD, Leitor Blu-Ray, Wi-Fi, Controle Sem Fio DualShock 4, Fone de Ouvido - SONY + Jogo The Evil Within
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Resident Evil: Revelations 2 para Playstation 4 (PS4)
+http://www.ricardoeletro.com.br/Produto/Jogo-Resident-Evil-Revelations-2-para-Playstation-4-PS4/47-4635-4636-512009
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 para Xbox 360 (X360)
+http://www.ricardoeletro.com.br/Produto/Jogo-Resident-Evil-Revelations-2-para-Xbox-360-X360/47-227-245-512012
+		Acessando URL do produto.
+		Nome do Produto: Jogo Resident Evil: Revelations 2 para Xbox One (XONE)
+http://www.ricardoeletro.com.br/Produto/Jogo-Resident-Evil-Revelations-2-para-Xbox-One-XONE/47-4420-4422-512013
+		Acessando URL do produto.
+		Nome do Produto: Jogo The Evil Within para Playstation 3 (PS3)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Playstation 3 (PS3) ''Super Slim'' 500GB HD, Leitor Blu-Ray, Wi-Fi, 01 Controle Sem Fio Dualshock 3 - OFICIAL SONY BRASIL + The Evil Within
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 4862
+Loja: RiHappy
+	URL Principal: http://www.rihappy.com.br/
+	URL Busca: http://www.rihappy.com.br/<BUSCA>
+http://www.rihappy.com.br/Resident%20Evil%20Revelations
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1211
+Loja: Saraiva
+	URL Principal: http://www.saraiva.com.br/
+	URL Busca: http://busca.saraiva.com.br/search?w=<BUSCA>&PAC_ID=129457&ts=ajax
+http://busca.saraiva.com.br/search?w=Resident+Evil+Revelations&PAC_ID=129457&ts=ajax
+		Documento Lido
+		Resultados: 6
+		Nome do Produto: Resident Evil: Revelations - PS3
+individualUrl = http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f4891575&rk=1&uid=515442601&sid=2&ts=ajax&rsc=GwsbR3E-Sgm9bdse&method=and&isort=score&view=grid
+http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f4891575&rk=1&uid=515442601&sid=2&ts=ajax&rsc=GwsbR3E-Sgm9bdse&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations - X360
+individualUrl = http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f4891581&rk=2&uid=515442601&sid=2&ts=ajax&rsc=E-FHkqMum4bYU2nP&method=and&isort=score&view=grid
+http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f4891581&rk=2&uid=515442601&sid=2&ts=ajax&rsc=E-FHkqMum4bYU2nP&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations 2 - X360
+individualUrl = http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8622005&rk=3&uid=515442601&sid=2&ts=ajax&rsc=wZiehzQCIdPNCks9&method=and&isort=score&view=grid
+http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8622005&rk=3&uid=515442601&sid=2&ts=ajax&rsc=wZiehzQCIdPNCks9&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations 2 - PS3
+individualUrl = http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8621888&rk=4&uid=515442601&sid=2&ts=ajax&rsc=IJDNxoDrYZMqzKJH&method=and&isort=score&view=grid
+http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8621888&rk=4&uid=515442601&sid=2&ts=ajax&rsc=IJDNxoDrYZMqzKJH&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations 2 - Xbox One
+individualUrl = http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8622028&rk=5&uid=515442601&sid=2&ts=ajax&rsc=W81Gjrs-Fw1KHjhg&method=and&isort=score&view=grid
+http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8622028&rk=5&uid=515442601&sid=2&ts=ajax&rsc=W81Gjrs-Fw1KHjhg&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations 2 - PS4
+individualUrl = http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8621935&rk=6&uid=515442601&sid=2&ts=ajax&rsc=Wy9Mo96CSCxNiFUU&method=and&isort=score&view=grid
+http://busca.saraiva.com.br/search?p=R&srid=S11-USESD02&lbc=saraiva&w=Resident%20Evil%20Revelations&url=http%3a%2f%2fwww.saraiva.com.br%2fproduto%2f8621935&rk=6&uid=515442601&sid=2&ts=ajax&rsc=Wy9Mo96CSCxNiFUU&method=and&isort=score&view=grid
+		Acessando URL do produto.
+	Tempo Para buscar: 13304
+Loja: Shop Facil
+	URL Principal: http://ww2.shopfacil.com.br/
+	URL Busca: http://ww2.shopfacil.com.br/<BUSCA>
+http://ww2.shopfacil.com.br/Resident%20Evil%20Revelations
+		Documento Lido
+		Resultados: 13
+		Nome do Produto: Jogo: Resident Evil 6 - Xbox 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo: Resident Evil 6 - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Blu-Ray - Resident Evil 2: Apocalipse
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Xbox 360 Resident Evil 6 com DLC
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: DVD - Resident Evil 5: Retribuição - Retribution
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Blu-Ray - Resident Evil 3: A Extinção - Simples
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Blu-Ray - Resident Evil 4: Recomeço
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Blu-Ray - Resident Evil 5: Retribuição - Retribution
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - Resident Evil: Retribuição - John Shirley
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Resident Evil: Operation Raccoon City
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Blu-Ray 3D - Resident Evil 5: Retribuição - Retribution
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Resident Evil Operation Raccoon City - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Nintendo 3DS Resident Evil: The Mercenaries 3D
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1091
+Loja: Shop Time
+	URL Principal: http://www.shoptime.com.br/
+	URL Busca: http://busca.shoptime.com.br/busca.php?q=<BUSCA>
+http://busca.shoptime.com.br/busca.php?q=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 20
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121800611/game-resident-evil-revelations-2-ps3&ranking=1&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121800611
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121662465/game-resident-evil-revelations-dead-island-metal-gear-rising-ps3&ranking=2&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121662465
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/120743626/game-resident-evil-revelations-xbox-360&ranking=3&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=120743626
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/122450296/game-resident-evil-revelations-resident-evil-revelations-2-ps3&ranking=4&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=122450296
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/7938490/game-resident-evil-revelations-ps3&ranking=5&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=7938490
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/120297478/game-resident-evil-revelations-xbox-360&ranking=6&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=120297478
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/9284926/resident-evil-revelations-xbox-360&ranking=7&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=9284926
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121800653/game-resident-evil-revelations-2-xbox360&ranking=8&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121800653
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/120743600/game-resident-evil-revelations-ps3&ranking=9&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=120743600
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/113266518/game-resident-evil-revelations-xbox-360&ranking=10&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=113266518
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/8462919/resident-evil-revelations-wii-u&ranking=11&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=8462919
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/9184058/resident-evil-revelations-2-xbox-360&ranking=12&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=9184058
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121662490/game-the-last-of-us-resident-evil-revelations-metal-gear-rising-ps3&ranking=13&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121662490
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/110839190/game-resident-evil-revelations-3ds&ranking=14&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=110839190
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121662473/game-resident-evil-revelations-metal-gear-rising-fifa-13-ps3&ranking=15&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121662473
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/122450270/game-resident-evil-revelations-2-the-last-of-us-ps3&ranking=16&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=122450270
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121662481/game-the-last-of-us-resident-evil-revelations-dead-island-ps3&ranking=17&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121662481
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121800637/game-resident-evil-revelations-2-ps4&ranking=18&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121800637
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/121800670/game-resident-evil-revelations-2-xbox-one&ranking=19&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=121800670
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3 Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3 Game - Resident Evil: Revelations - XBOX 360 Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3 Game Resident Evil: Revelations - PS3 Game - Resident Evil - Revelations - Xbox 360 Resident Evil Revelations - Xbox 360 Game - Resident Evil Revelations 2 - Xbox360 Game - Resident Evil: Revelations - PS3 Game Resident Evil: Revelations - Xbox 360 Resident Evil Revelations Wii U Resident Evil Revelations 2 - Xbox 360 Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising -... Game Resident Evil Revelations - 3DS Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3 Game Resident Evil Revelations 2 + The Last of Us - PS3 Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3 Game - Resident Evil Revelations 2 - PS4 Game - Resident Evil Revelations 2 - Xbox One Game Resident Evil: Revelations -XBOX 360
+http://busca.shoptime.com.br/produto.php?link=http://www.shoptime.com.br/produto/7938491/game-resident-evil-revelations-xbox-360&ranking=20&sessao=U70N9VSHUBK47&idbusca=0047e2f47e45123c5cff8310c35e19a0d0ea95f6&idproduto=7938491
+		Acessando URL do produto.
+	Tempo Para buscar: 12102
+Loja: ShopB
+	URL Principal: http://www.shopb.com.br/
+	URL Busca: http://busca.shopb.com.br/?busca=<BUSCA>
+http://busca.shopb.com.br/?busca=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 40
+		Nome do Produto: Resident Evil Revelations - PS3
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d31632%26idparceiro%3dp1&esid=31632
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations - XBOX 360
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d31651%26idparceiro%3dp1&esid=31651
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - PS3
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d39213%26idparceiro%3dp1&esid=39213
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - PS4
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d39211%26idparceiro%3dp1&esid=39211
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - XBOX 360
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d39214%26idparceiro%3dp1&esid=39214
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil: Revelations 2 - XBOX ONE
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d39212%26idparceiro%3dp1&esid=39212
+		Acessando URL do produto.
+		Nome do Produto: Skin PS3 - Resident Evil Revelations MOD 1
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d17101%26idparceiro%3dp1&esid=17101
+		Acessando URL do produto.
+		Nome do Produto: Skin PS3 - Resident Evil Revelations MOD 2
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d17109%26idparceiro%3dp1&esid=17109
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations - 3DS
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d21595%26idparceiro%3dp1&esid=21595
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations - Wii U
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d35633%26idparceiro%3dp1&esid=35633
+		Acessando URL do produto.
+		Nome do Produto: Assassins Creed: Revelations - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Assassins Creed: Revelations - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Dance Dance Revolution Universe 3 - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Deus Ex: Human Revolution - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Deus Ex: Human Revolution - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Deus Ex: Human Revolution Directors Cut Edition - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Deus Ex: Human Revolution Directors Cut Edition - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Diablo 3 Reaper of Souls: Ultimate Evil Edition - PS4
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Diablo 3 Reaper of souls: Ultimate Evil Edition - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Diablo 3 Reaper of souls: Ultimate Evil Edition - XBOX ONE
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Karaoke Revolutions + Microfone - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Naruto Shippuden: Ultimate Ninja Storm Revolution - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Naruto Shippuden: Ultimate Ninja Storm Revolution - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resistance 2 - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resistance 3 - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resistance 3: Survivor Edition - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resistance Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resistance: Burning Skies - PS Vita
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resistance: Fall of Man - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Rock Revolution - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Sid Meiers: Civilization Revolution - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Skin XBOX - Resident Evil 6 MOD 1
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Super Poster - Assassins Creed Revelations
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Super Poster - Resident Evil 4
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Super Poster - Resident Evil Darkside Chronicles
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Super Poster - Resident Evil: Operation Raccoon City MOD 02
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Super Poster - Resident Evil: Operation Raccoon City MOD 03
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Super Poster - Resident Evil: Operation Raccoon City MOD 04
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Evil Within - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Evil Within - PS4
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 21179
+Loja: Submarino
+	URL Principal: http://www.submarino.com.br/
+	URL Busca: http://busca.submarino.com.br/busca.php?q=<BUSCA>
+http://busca.submarino.com.br/busca.php?q=Resident+Evil+Revelations
+		Documento Lido
+		Resultados: 25
+		Nome do Produto: Game Resident Evil: Revelations - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/113266497/game-resident-evil-revelations-ps3&ranking=1&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=113266497
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121800611/game-resident-evil-revelations-2-ps3&ranking=2&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121800611
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - PS4
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121800637/game-resident-evil-revelations-2-ps4&ranking=3&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121800637
+		Acessando URL do produto.
+		Nome do Produto: Game The Last Of Us + Resident Evil: Revelations + Metal Gear Rising - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121662490/game-the-last-of-us-resident-evil-revelations-metal-gear-rising-ps3&ranking=4&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121662490
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - Xbox360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121800653/game-resident-evil-revelations-2-xbox360&ranking=5&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121800653
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil: Revelations - XBOX 360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/120743626/game-resident-evil-revelations-xbox-360&ranking=6&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=120743626
+		Acessando URL do produto.
+		Nome do Produto: Game The Last Of Us + Resident Evil: Revelations + Dead Island - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121662481/game-the-last-of-us-resident-evil-revelations-dead-island-ps3&ranking=7&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121662481
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations + Dead Island + Metal Gear Rising - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121662465/game-resident-evil-revelations-dead-island-metal-gear-rising-ps3&ranking=8&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121662465
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations + Resident Evil: Revelations 2 - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/122450296/game-resident-evil-revelations-resident-evil-revelations-2-ps3&ranking=9&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=122450296
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/7938490/game-resident-evil-revelations-ps3&ranking=10&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=7938490
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations 2 - Xbox 360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/9184058/resident-evil-revelations-2-xbox-360&ranking=11&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=9184058
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil Revelations 2 - Xbox One
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121800670/game-resident-evil-revelations-2-xbox-one&ranking=12&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121800670
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations + Metal Gear Rising + FIFA 13 - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/121662473/game-resident-evil-revelations-metal-gear-rising-fifa-13-ps3&ranking=13&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=121662473
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations Wii U
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/8462919/resident-evil-revelations-wii-u&ranking=14&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=8462919
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2 + The Last of Us - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/122450270/game-resident-evil-revelations-2-the-last-of-us-ps3&ranking=15&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=122450270
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil: Revelations - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/120743600/game-resident-evil-revelations-ps3&ranking=16&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=120743600
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations - Xbox 360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/9284926/resident-evil-revelations-xbox-360&ranking=17&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=9284926
+		Acessando URL do produto.
+		Nome do Produto: Game - Resident Evil - Revelations - Xbox 360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/120297478/game-resident-evil-revelations-xbox-360&ranking=18&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=120297478
+		Acessando URL do produto.
+		Nome do Produto: Game Dying Light + Resident Evil Revelations 2 - PS4
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/122404986/game-dying-light-resident-evil-revelations-2-ps4&ranking=19&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=122404986
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2 + The Evil Within - PS4
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/122405049/game-resident-evil-revelations-2-the-evil-within-ps4&ranking=20&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=122405049
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations 2 + Devil May Cry: Definitive Edition - PS4
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/122404978/game-resident-evil-revelations-2-devil-may-cry-definitive-edition-ps4&ranking=21&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=122404978
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations -XBOX 360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/7938491/game-resident-evil-revelations-xbox-360&ranking=22&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=7938491
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations - Xbox 360
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/113266518/game-resident-evil-revelations-xbox-360&ranking=23&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=113266518
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil Revelations - 3DS
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/110839190/game-resident-evil-revelations-3ds&ranking=24&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=110839190
+		Acessando URL do produto.
+		Nome do Produto: Game Resident Evil: Revelations - PS3
+http://busca.submarino.com.br/produto.php?link=http://www.submarino.com.br/produto/120296782/game-resident-evil-revelations-ps3&ranking=25&sessao=U70NB1WHT4GO7&idbusca=9e59ea5458993bffb92392151578743f7b402875&idproduto=120296782
+		Acessando URL do produto.
+	Tempo Para buscar: 24736
+Loja: Walmart
+	URL Principal: http://www.walmart.com.br/
+	URL Busca: http://www.walmart.com.br/busca/?ft=<BUSCA>&PS=20
+http://www.walmart.com.br/busca/?ft=Resident+Evil+Revelations&PS=20
+		Documento Lido
+		Resultados: 8
+		Nome do Produto: Jogo PS3 Resident Evil: Revelations
+http://www.walmart.com.br//produto/Games/Jogos-para-PS3/Capcom/377897-Jogo-PS3-Resident-Evil-Revelations
+		Acessando URL do produto.
+		Nome do Produto: Jogo para PS4 Resident Evil Revelations 2 Sony DADC CP6987AN
+http://www.walmart.com.br//produto/Games/Jogos-para-PS4/Sony-Dadc/505832-jogo-para-ps4-resident-evil-revelations-2-sony-dadc-cp6987an
+		Acessando URL do produto.
+		Nome do Produto: Jogo para PS3 Resident Evil Revelations 2 Rihmo CP6987BN
+http://www.walmart.com.br//produto/Games/Jogos-para-PS3/Rihmo/505831-jogo-para-ps3-resident-evil-revelations-2-rihmo-cp6987bn
+		Acessando URL do produto.
+		Nome do Produto: Jogo Xbox 360 Resident Evil: Revelations
+http://www.walmart.com.br//produto/Games/Jogos-para-Xbox-360/Capcom/377898-Jogo-Xbox-360-Resident-Evil-Revelations
+		Acessando URL do produto.
+		Nome do Produto: Jogo para XBOX One Resident Evil Revelations 2 Sony DADC CP6987ON
+http://www.walmart.com.br//produto/Games/Jogos-para-Xbox-One/Sony-Dadc/505834-jogo-para-xbox-one-resident-evil-revelations-2-sony-dadc-cp6987on
+		Acessando URL do produto.
+		Nome do Produto: Jogo para XBOX 360 Resident Evil Revelations 2 Rihmo CP6987XN
+http://www.walmart.com.br//produto/Games/Jogos-para-Xbox-360/Rihmo/505833-jogo-para-xbox-360-resident-evil-revelations-2-rihmo-cp6987xn
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations Wii U
+http://www.walmart.com.br//produto/Games/Jogos-Nintendo-Wii-U/Capcom/2377020m-resident_evil_revelations_wii_u
+		Acessando URL do produto.
+		Nome do Produto: Resident Evil Revelations N3DS
+http://www.walmart.com.br//produto/Games/Jogos-para-Nintendo-3DS/Capcom/2374441m-resident_evil_revelations_n3ds
+		Acessando URL do produto.
+	Tempo Para buscar: 7896
+
+File copied from C:\java\workspace Estudo\lookforprices\resources\imports\css.css to C:\java\workspace Estudo\lookforprices\reports\2015-05-04 11\css.css
+File copied from C:\java\workspace Estudo\lookforprices\resources\imports\jquery.js to C:\java\workspace Estudo\lookforprices\reports\2015-05-04 11\jquery.js
+File copied from C:\java\workspace Estudo\lookforprices\resources\imports\scripts.js to C:\java\workspace Estudo\lookforprices\reports\2015-05-04 11\scripts.js
+Tempo total de execução: 358986

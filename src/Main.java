@@ -47,7 +47,7 @@ public class Main {
 	private static String logAdress = "";
 	
 	public static void main(String[] args) throws IOException, URISyntaxException {
-		
+
 		List<Shop> shops = getAllShopsConfig();
 		
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
@@ -60,7 +60,7 @@ public class Main {
 			generateHtlReport(gameName, shops);
 		}
 		*/
-		String gameName = "2ds";
+		String gameName = "Pokemon Platinum";
 		configurarSaida(gameName);
 		generateHtlReport(gameName, shops);
 	} 

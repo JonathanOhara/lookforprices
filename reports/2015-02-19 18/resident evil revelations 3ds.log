@@ -1,0 +1,61 @@
+Loja: Nintendo eShop
+	URL Principal: http://www.nintendo.com/3ds/eshop
+	URL Busca: http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>
+NintendoEShopSearch.search() http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=resident+evil+revelations+3ds
+		Documento Lido
+		Resultados: 2
+		Nome do Produto: Resident Evil Revelations
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Resident Evil: The Mercenaries 3D
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1270
+Loja: Americanas
+	URL Principal: http://www.americanas.com.br/
+	URL Busca: http://busca.americanas.com.br/busca.php?q=<BUSCA>
+http://busca.americanas.com.br/busca.php?q=resident+evil+revelations+3ds
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Game Resident Evil Revelations - 3DS
+http://busca.americanas.com.br/produto.php?link=http://www.americanas.com.br/produto/110839190/game-resident-evil-revelations-3ds&ranking=1&sessao=U26AEXLXU80W7&idbusca=4884eb3b76f03dc1aededa8e8f347f1036c2bfee&idproduto=110839190
+		Acessando URL do produto.
+	Tempo Para buscar: 1178
+Loja: Big Boy Games
+	URL Principal: http://www.bigboygames.com.br/
+	URL Busca: http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>
+http://www.bigboygames.com.br/pesquisa/?p=resident+evil+revelations+3ds
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=http://www.bigboygames.com.br/pesquisa/?p=resident+evil+revelations+3ds
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:459)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.BigBoyGamesSearch.readResults(BigBoyGamesSearch.java:98)
+	at interfaces.search.BigBoyGamesSearch.search(BigBoyGamesSearch.java:30)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:90)
+	at Main.main(Main.java:67)
+Tentando conectar Na Url de outro modo
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://www.bigboygames.com.br/pesquisa/?p=resident+evil+revelations+3ds
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at comom.Util.getPageBuffer(Util.java:138)
+	at comom.Util.readUrl(Util.java:106)
+	at comom.Util.readUrlDocument(Util.java:98)
+	at interfaces.search.BigBoyGamesSearch.readResults(BigBoyGamesSearch.java:98)
+	at interfaces.search.BigBoyGamesSearch.search(BigBoyGamesSearch.java:30)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:90)
+	at Main.main(Main.java:67)
+		Documento Lido
+		Resultados*: 1
+		Acessando URL do produto.
+java.lang.NullPointerException
+	at interfaces.search.BigBoyGamesSearch.readProductPage(BigBoyGamesSearch.java:91)
+	at interfaces.search.BigBoyGamesSearch.search(BigBoyGamesSearch.java:42)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtlReport(Main.java:90)
+	at Main.main(Main.java:67)
+	Tempo Para buscar: 373
+Loja: Casas Bahia
+	URL Principal: http://www.casasbahia.com.br/
+	URL Busca: http://buscas.casasbahia.com.br/search?w=<BUSCA>
+http://buscas.casasbahia.com.br/search?w=resident+evil+revelations+3ds
