@@ -88,7 +88,7 @@ public class PontoFrioSearch implements Search{
 	private void readProductPage(String individualUrl, Document document, Element productContainer, List<Product> products) {
 		String gameCompleteName;
 		String price;
-		price = document.select(".sale").size() > 0 ? document.select(".sale").text().trim(): Keys.INDISPONIVEL;
+		price = document.select(".sale").size() > 0 ? document.select(".sale").first().text().trim(): Keys.INDISPONIVEL;
 
 		gameCompleteName = document.select("h1").first().child(0).text();
 		

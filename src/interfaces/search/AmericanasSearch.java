@@ -70,7 +70,7 @@ public class AmericanasSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().nextSibling().toString().trim(): Keys.INDISPONIVEL;
+					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().nextElementSibling().toString().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select(".mp-tit-name").
 							first().text();

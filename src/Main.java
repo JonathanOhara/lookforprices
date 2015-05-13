@@ -51,17 +51,16 @@ public class Main {
 		List<Shop> shops = getAllShopsConfig();
 		
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
-		
 		File gameList = readFile();
 		for( String gameName: Util.ler(gameList) ){
 			configurarSaida(gameName);
 			System.out.println("Game: "+gameName);
-			generateHtlReport(gameName, shops);
+			generateHtmlReport(gameName, shops);
 		}
 		/*
-		String gameName = "Pokemon Platinum";
+		String gameName = "Pokemon White";
 		configurarSaida(gameName);
-		generateHtlReport(gameName, shops);
+		generateHtmlReport(gameName, shops);
 		*/
 	} 
 		
@@ -73,9 +72,11 @@ public class Main {
 		System.setErr(fileStream);
 	}
 
-	public static void generateHtlReport(String nameToSearch, List<Shop> shops) throws URISyntaxException, IOException{ 
+	public static void generateHtmlReport(String nameToSearch, List<Shop> shops) throws URISyntaxException, IOException{ 
 		long time = System.currentTimeMillis();
 
+		System.out.println("Product Name: "+nameToSearch);
+		
 		HtmlReport htmlReport = new HtmlReport();
 
 		String data = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
@@ -102,7 +103,7 @@ public class Main {
 	private static List<Shop> getAllShopsConfig() {
 		List<Shop> shops = new ArrayList<Shop>();
 		
-		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&&&&qterm=<BUSCA>", new NintendoEShopSearch() ) );
+		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&qterm=<BUSCA>", new NintendoEShopSearch() ) );
 
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
 		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );

@@ -70,7 +70,7 @@ public class ExtraSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".sale").size() > 0 ? document.select(".sale").text().trim(): Keys.INDISPONIVEL;
+					price = document.select(".sale").size() > 0 ? document.select(".sale").first().text().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select("h1").first().child(0).text();
 					

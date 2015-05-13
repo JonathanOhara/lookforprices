@@ -45,8 +45,9 @@ public class DefaultFilters {
 			private boolean wordContainsInList(List<String> productNameWords, String word) {
 				boolean matches = false;
 				
+				
 				for(String s : productNameWords){
-					if( s.contains(word) ){
+					if( replaceAllAccent(s).contains(word.toLowerCase()) ){
 						matches = true;
 						break;
 					}
@@ -55,4 +56,29 @@ public class DefaultFilters {
 			}
 		};
 	}
+	
+	public static String replaceAllAccent(String replacement) {
+		String retorno = replacement;
+		if (retorno == null) {
+			return null;
+		}
+		retorno = retorno.toLowerCase();
+		retorno = retorno.replaceAll("[דבאגה×]", "a");
+		retorno = retorno.replaceAll("[דבאגה]".toUpperCase(), "a".toUpperCase());
+		retorno = retorno.replaceAll("[יטךכ]", "e");
+		retorno = retorno.replaceAll("[יטךכ]".toUpperCase(), "e".toUpperCase());
+		retorno = retorno.replaceAll("[םלמן]", "i");
+		retorno = retorno.replaceAll("[םלמן]".toUpperCase(), "i".toUpperCase());
+		retorno = retorno.replaceAll("[ץףעפצ÷]", "o");
+		retorno = retorno.replaceAll("[ץףעפצ]".toUpperCase(), "o".toUpperCase());
+		retorno = retorno.replaceAll("[תשûü]", "u");
+		retorno = retorno.replaceAll("[תשûü]".toUpperCase(), "u".toUpperCase());
+		retorno = retorno.replaceAll("[ח]", "c");
+		retorno = retorno.replaceAll("[ח]".toUpperCase(), "c".toUpperCase());
+		retorno = retorno.replaceAll("[ס]", "n");
+		retorno = retorno.replaceAll("[ס]".toUpperCase(), "n".toUpperCase());
+		retorno = retorno.replaceAll("[&]", "");
+
+		return retorno;
+	}	
 }
