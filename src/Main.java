@@ -58,7 +58,7 @@ public class Main {
 			generateHtmlReport(gameName, shops);
 		}
 		/*
-		String gameName = "Pokemon White";
+		String gameName = "GameName";
 		configurarSaida(gameName);
 		generateHtmlReport(gameName, shops);
 		*/

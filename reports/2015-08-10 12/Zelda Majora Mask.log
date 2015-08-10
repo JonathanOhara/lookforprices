@@ -1,0 +1,511 @@
+Game: Zelda Majora Mask
+Product Name: Zelda Majora Mask
+Loja: Nintendo eShop
+	URL Principal: http://www.nintendo.com/3ds/eshop
+	URL Busca: http://www.nintendo.com/json/content/get/game/filter?&qterm=<BUSCA>
+NintendoEShopSearch.search() http://www.nintendo.com/json/content/get/game/filter?&qterm=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 2
+		Nome do Produto: The Legend of Zelda: Majora's Mask 3D
+http://www.nintendo.com/games/detail/c8UrE_y0o-DfMVe3HdlM699oMfoM1OFt
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/c8UrE_y0o-DfMVe3HdlM699oMfoM1OFt
+		Nome do Produto: The Legend of Zelda: Majora's Mask
+http://www.nintendo.com/games/detail/7OfVrKE-E5ri9Rjnqx9FBs0gIzJGZtns
+		Acessando URL do produto.
+URL = http://www.nintendo.com/games/detail/7OfVrKE-E5ri9Rjnqx9FBs0gIzJGZtns
+	Tempo Para buscar: 971
+Loja: Americanas
+	URL Principal: http://www.americanas.com.br/
+	URL Busca: http://busca.americanas.com.br/busca.php?q=<BUSCA>
+http://busca.americanas.com.br/busca.php?q=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 3
+		Nome do Produto: The Legend Of Zelda: Majoras Mask 3d - 3ds
+http://www.americanas.com.br/produto/8575594/the-legend-of-zelda-majoras-mask-3d-3ds
+		Acessando URL do produto.
+		Nome do Produto: The Legend Of Zelda Majoras Mask N3ds
+http://www.americanas.com.br/produto/9957089/the-legend-of-zelda-majoras-mask-n3ds
+		Acessando URL do produto.
+		Nome do Produto: The Legend Of Zelda Majoras Mask N3ds
+http://www.americanas.com.br/produto/9957089/the-legend-of-zelda-majoras-mask-n3ds
+		Acessando URL do produto.
+	Tempo Para buscar: 1241
+Loja: Big Boy Games
+	URL Principal: http://www.bigboygames.com.br/
+	URL Busca: http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>
+http://www.bigboygames.com.br/pesquisa/?p=Zelda+Majora+Mask
+		Documento Lido
+		Resultados*: 1
+		Acessando URL do produto.
+	Tempo Para buscar: 550
+Loja: Casas Bahia
+	URL Principal: http://www.casasbahia.com.br/
+	URL Busca: http://buscas.casasbahia.com.br/search?w=<BUSCA>
+http://buscas.casasbahia.com.br/search?w=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: The Legend Of Zelda: Majoras Mask 3d - 3ds
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USWSD01&lbc=casasbahia&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.casasbahia.com.br%2f5177393%3f&rk=1&uid=191637593&sid=2&ts=custom&rsc=bgj7ZWkwAfyxypWD&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: The Legend of Zelda: Majoras Mask 3D - 3DS
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USWSD01&lbc=casasbahia&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.casasbahia.com.br%2f5413299%3f&rk=2&uid=191637593&sid=2&ts=custom&rsc=qk9yRMSN%3aVu7u4Rl&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: Jogo The Legend of Zelda: Majora's Mask 3D - Nintendo 3DS
+http://buscas.casasbahia.com.br/search?p=R&srid=S6-USWSD01&lbc=casasbahia&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.casasbahia.com.br%2f5303038%3f&rk=3&uid=191637593&sid=2&ts=custom&rsc=9CHZsIJxNMfD%3aUIx&method=and&isort=score&view=grid
+		Acessando URL do produto.
+	Tempo Para buscar: 4251
+Loja: Extra
+	URL Principal: http://www.extra.com.br/
+	URL Busca: http://buscando.extra.com.br/search?w=<BUSCA>
+http://buscando.extra.com.br/search?w=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 3
+		Nome do Produto: The Legend of Zelda: Majoras Mask 3D - 3DS
+http://buscando.extra.com.br/search?p=R&srid=S1-USESD02&lbc=extra&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.extra.com.br%2f5413299%3f&rk=1&uid=191676082&sid=2&ts=custom&rsc=8rA9xQY4DAIzRtKs&method=and&isort=score&view=grid
+		Acessando URL do produto.
+		Nome do Produto: The Legend Of Zelda: Majoras Mask 3d - 3ds
+http://buscando.extra.com.br/search?p=R&srid=S1-USESD02&lbc=extra&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.extra.com.br%2f5177393%3f&rk=2&uid=191676082&sid=2&ts=custom&rsc=4lSrZ6kuaRTvcz9E&method=and&isort=score&view=grid
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:449)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:475)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.ExtraSearch.readEachProduct(ExtraSearch.java:70)
+	at interfaces.search.ExtraSearch.search(ExtraSearch.java:38)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtmlReport(Main.java:89)
+	at Main.main(Main.java:58)
+Tentando conectar Na Url de outro modo
+		Acessando URL do produto.
+		Nome do Produto: Jogo The Legend of Zelda: Majora's Mask 3D - Nintendo 3DS
+http://buscando.extra.com.br/search?p=R&srid=S1-USESD02&lbc=extra&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.extra.com.br%2f5303038%3f&rk=3&uid=191676082&sid=2&ts=custom&rsc=Wkw10HdWOJv4439%3a&method=and&isort=score&view=grid
+		Acessando URL do produto.
+	Tempo Para buscar: 25575
+Loja: E-Virtua
+	URL Principal: http://www.evirtua.com.br/
+	URL Busca: http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>
+http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: The Legend of Zelda: Majora's Mask 3D - Nintendo 3DS
+http://www.evirtua.com.br//the-legend-of-zelda-majora-s-mask-3d-nintendo-3ds/3684-01
+		Acessando URL do produto.
+	Tempo Para buscar: 664
+Loja: Fast Games
+	URL Principal: http://www.fastgames.com.br/
+	URL Busca: http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>
+http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 445
+Loja: Fast Shop
+	URL Principal: http://www.fastshop.com.br/loja/
+	URL Busca: http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop
+http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=Zelda+Majora+Mask&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 543
+Loja: FNAC
+	URL Principal: http://www.fnac.com.br/index.html
+	URL Busca: http://busca.fnac.com.br/?busca=<BUSCA>
+http://busca.fnac.com.br/?busca=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 20
+		Nome do Produto: Esta Valsa É Minha
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Major Calabar
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Você Quer Ser Um Milionário? - Transforme Sua Pequena Empresa em Um Negócio de Sucesso
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Bom Dia, Sr. Mandela
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Coleção Moebius - As Férias do Major
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Camiseta - Masculina Batman - Mask - P
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Cam Uni Pto G1 Dc Batman Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Masters: Art Quilts: Major Works By Leading Artists
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 365 Histórias Para Ninar
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: O Diario de Zlata - A Vida de Uma Menina
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Best Of Fleetwood Mac
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Very Best Of Fleetwood Mac
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Haarp (CD + DVD)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Resistance
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Black Holes And Revelations
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The 2nd Law
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Muito Pouco Para Todos
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Drones
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Box - Maysa Internacional (5 CDs)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Miúcha Com Tom, João E Vinícius (ed. Especial)
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1155
+Loja: Kabum
+	URL Principal: http://www.kabum.com.br/
+	URL Busca: http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=<BUSCA>&btnG=
+http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=Zelda+Majora+Mask&btnG=
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1205
+Loja: Livraria Cultura
+	URL Principal: http://www.livrariacultura.com.br/
+	URL Busca: http://www.livrariacultura.com.br/busca?N=0&Ntt=<BUSCA>
+http://www.livrariacultura.com.br/busca?N=0&Ntt=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 3
+		Nome do Produto: LEGEND OF ZELDA MAJORA'S MASK 3D COLLECTOR'S EDITI
+http://www.livrariacultura.com.br/p/legend-of-zelda-majoras-mask-3d-collectors-editi-42863390
+		Acessando URL do produto.
+		Nome do Produto: LEGEND OF ZELDA MAJORA'S MASK 3D
+http://www.livrariacultura.com.br/p/legend-of-zelda-majoras-mask-3d-42863407
+		Acessando URL do produto.
+		Nome do Produto: LEGEND OF ZELDA: MAJORA’S MASK 3D GAME GUIDE
+http://www.livrariacultura.com.br/p/legend-of-zelda-majoras-mask-3d-game-guide-91796074
+		Acessando URL do produto.
+	Tempo Para buscar: 2439
+Loja: Magazine Luiza
+	URL Principal: http://www.magazineluiza.com.br/
+	URL Busca: http://www.magazineluiza.com.br/busca/<BUSCA>/
+http://www.magazineluiza.com.br/busca/Zelda+Majora+Mask/
+		Documento Lido
+		Resultados: 7
+		Nome do Produto: Mask Platinum 30g - Charis
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Benefiance Firming Massage Mask 50ml - Shiseido
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Skincare Purifyng Mask 75ml - Shiseido
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Intensive Treatment Hair Mask 200ml - Shiseido
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Máscara Capilar Hidratante 500 g - Argan Oil Hair Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Máscara Hidratante Organix 237ml - Awapuhi Ginger Instant Recovery Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Máscara Transformers Robots in Disguise Bumblebee - Mask Hasbro
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 265
+Loja: Mula Games
+	URL Principal: http://www.mulagames.com.br/
+	URL Busca: http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/<BUSCA>/-/-/-/-/-/
+http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/Zelda%20Majora%20Mask/-/-/-/-/-/
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: The Legend of Zelda: Majora’s Mask 3D - 3DS
+http://www.mulagames.com.br/The-Legend-of-Zelda--Majora---s-Mask-3D-3DS/prod-2734660/
+		Acessando URL do produto.
+http://www.mulagames.com.br/produto-ajax_retorna_dados_preco_comprar/2734660
+		Acessando URL do preço produto.
+	Tempo Para buscar: 2131
+Loja: Net Shoes
+	URL Principal: http://www.netshoes.com.br/
+	URL Busca: http://www.netshoes.com.br/search?Ntt=<BUSCA>
+http://www.netshoes.com.br/search?Ntt=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 8
+		Nome do Produto: Camiseta Mask São Paulo
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Camisa Polo Mask São Paulo
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Camisa Polo Mask São Paulo
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Óculos Speedo Omega Swim Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Óculos Speedo Omega Swim Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Bermuda Jeans Hang Loose Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Camiseta Pretorian Mask
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Óculos Speedo Omega Swim Mask
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 214
+Loja: Ponto Frio
+	URL Principal: http://www.pontofrio.com.br/
+	URL Busca: http://search.pontofrio.com.br/search?w=<BUSCA>
+http://search.pontofrio.com.br/search?w=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: The Legend Of Zelda: Majoras Mask 3d - 3ds
+http://search.pontofrio.com.br/search?p=R&srid=S3-USESD02&lbc=pontofrio-br&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.pontofrio.com.br%2f5177393%3f&rk=1&uid=192024081&sid=2&ts=custom&rsc=EXDo2ZS37UDTFm86&method=and&isort=score&view=grid
+		Nome do Produto: The Legend of Zelda: Majoras Mask 3D - 3DS
+http://search.pontofrio.com.br/search?p=R&srid=S3-USESD02&lbc=pontofrio-br&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.pontofrio.com.br%2f5413299%3f&rk=2&uid=192024081&sid=2&ts=custom&rsc=NUq2VvJcav9iRz5x&method=and&isort=score&view=grid
+		Nome do Produto: Jogo The Legend of Zelda: Majora's Mask 3D - Nintendo 3DS
+http://search.pontofrio.com.br/search?p=R&srid=S3-USESD02&lbc=pontofrio-br&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.pontofrio.com.br%2f5303038%3f&rk=3&uid=192024081&sid=2&ts=custom&rsc=NunwVxvlcEOebtDv&method=and&isort=score&view=grid
+		Nome do Produto: The Legend Of Zelda: Majoras Mask 3d - 3ds
+http://search.pontofrio.com.br/search?p=R&srid=S3-USESD02&lbc=pontofrio-br&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.pontofrio.com.br%2f5177393%3f&rk=1&uid=192024081&sid=2&ts=custom&rsc=EXDo2ZS37UDTFm86&method=and&isort=score&view=grid
+		Nome do Produto: The Legend of Zelda: Majoras Mask 3D - 3DS
+http://search.pontofrio.com.br/search?p=R&srid=S3-USESD02&lbc=pontofrio-br&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.pontofrio.com.br%2f5413299%3f&rk=2&uid=192024081&sid=2&ts=custom&rsc=NUq2VvJcav9iRz5x&method=and&isort=score&view=grid
+		Nome do Produto: Jogo The Legend of Zelda: Majora's Mask 3D - Nintendo 3DS
+http://search.pontofrio.com.br/search?p=R&srid=S3-USESD02&lbc=pontofrio-br&w=Zelda%20Majora%20Mask&url=http%3a%2f%2fproduto.pontofrio.com.br%2f5303038%3f&rk=3&uid=192024081&sid=2&ts=custom&rsc=NunwVxvlcEOebtDv&method=and&isort=score&view=grid
+	Tempo Para buscar: 8288
+Loja: Ricardo Eletro
+	URL Principal: http://www.ricardoeletro.com.br/
+	URL Busca: http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>
+http://www.ricardoeletro.com.br/Busca/Resultado/?q=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1070
+Loja: RiHappy
+	URL Principal: http://www.rihappy.com.br/
+	URL Busca: http://www.rihappy.com.br/<BUSCA>
+http://www.rihappy.com.br/Zelda%20Majora%20Mask
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1248
+Loja: Saraiva
+	URL Principal: http://www.saraiva.com.br/
+	URL Busca: http://busca.saraiva.com.br/search?w=<BUSCA>&PAC_ID=129457&ts=ajax
+http://busca.saraiva.com.br/search?w=Zelda+Majora+Mask&PAC_ID=129457&ts=ajax
+		Documento Lido
+		Resultados: 2
+		Nome do Produto: Calculadora Cientifica HP 10s+
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: ENEM Coleção Completa - Edição 2015
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 515
+Loja: Shop Facil
+	URL Principal: http://ww2.shopfacil.com.br/
+	URL Busca: http://ww2.shopfacil.com.br/<BUSCA>
+http://ww2.shopfacil.com.br/Zelda%20Majora%20Mask
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1181
+Loja: Shop Time
+	URL Principal: http://www.shoptime.com.br/
+	URL Busca: http://busca.shoptime.com.br/busca.php?q=<BUSCA>
+http://busca.shoptime.com.br/busca.php?q=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 19
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/110455145/game-the-legend-of-zelda-ocarina-of-time-nintendo-3d
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/116708019/game-the-legend-of-zelda-the-wind-waker-wii-u
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/116578859/game-the-legend-of-zelda-a-link-between-worlds-3ds
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/110455225/game-legend-of-zelda-skyward-sword-wii
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/119561956/livro-a-bruxa-zelda-e-os-80-docinhos
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/348122/game-the-legend-of-zelda-twilight-princess-nintendo-wii
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/122522211/placa-decorativa-keep-calm-and-save-zelda
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/9957089/the-legend-of-zelda-majoras-mask-n3ds
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/113261961/game-the-leg-of-zelda-skyward-sword-wii
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/9874492/the-legend-of-zelda-link-figma
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/5434505/livro-querido-scott-querida-zelda-as-cartas-de-amor-de-f.-scott-e-zelda-fitzgerald
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/9888559/boneco-amiibo-zelda-wii-u
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/8479951/nintendo-amiibo-zelda-wii-u
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/9874476/boneco-nintendo-amiibo-zelda-wii-u
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/117469953/livro-esta-valsa-e-minha
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/122479793/livro-bom-dia-sr.-mandela
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/123015579/amiibo-zelda-personagem-individual-colecao-super-smash-bros-wii-u
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/122791613/pelucia-super-mario-zelda-dtc
+		Acessando URL do produto.
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D Game The Legend of Zelda - The Wind Waker - Wii U Game The Legend of Zelda - A Link Between Worlds - 3DS Game Legend of Zelda: Skyward Sword - Wii Livro - A Bruxa Zelda e os 80 Docinhos Game The Legend of Zelda: Twilight Princess - Nintendo Wii Placa Decorativa: Keep Calm and Save Zelda The Legend Of Zelda Majoras Mask N3ds Game The Leg of Zelda - Skyward Sword - Wii The Legend Of Zelda - Link - Figma Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e... Boneco Amiibo Zelda - Wii U Nintendo Amiibo: Zelda - Wii U Boneco Nintendo Amiibo: Zelda - Wii U Livro - Esta Valsa É Minha Livro - Bom Dia, Sr. Mandela Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii... Pelúcia Super Mario Zelda DTC Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda -...
+http://www.shoptime.com.br/produto/110767501/kit-nintendo-wii-preto-com-just-dance-3-game-the-leg-zelda-twilight-princess
+		Acessando URL do produto.
+	Tempo Para buscar: 5726
+Loja: ShopB
+	URL Principal: http://www.shopb.com.br/
+	URL Busca: http://busca.shopb.com.br/?busca=<BUSCA>
+http://busca.shopb.com.br/?busca=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 31
+		Nome do Produto: The Legend of Zelda: Majoras Mask 3D - 3DS
+http://shopb.ecommercesearch.com.br/Busca/Redir?url=http%3a%2f%2fwww.shopb.com.br%2fecommerce_site%2findex.php%3fpg%3dproduto%26cdg%3d4488%26idp%3d39222%26idparceiro%3dp1&esid=39222
+		Acessando URL do produto.
+		Nome do Produto: Adidas miCoach - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Amplitude - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Amplitude - PS4
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Arcana Heart 3: Love Max !!!!! - PS Vita
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Arcana Heart 3: Love Max !!!!! - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Bandfuse Rock Legends: Artists Pack - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Bandfuse Rock Legends: Artists Pack - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Boneco Disney Infinity: Mickey Mago Aprendiz - XBOX 360, PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Boneco Disney Infinity: Mike - XBOX 360, PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Caixas de Som Multimídia - K-Mex
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Caixas de Som Speaker SP-0300 - K-Mex
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Cartão Xbox Live Gold 01 Mês
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Cartão Xbox Live Gold 03 Meses
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Cartão de Memória Micro SD - 16 GB - Kingston
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Cartão de Memória Micro SD - 8 GB - Kingston
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Jenny TV Dual Sim com Câmera integrada, TV, Rádio FM/AM e Micro SD - Branco
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Jenny TV Dual Sim com Câmera integrada, TV, Rádio FM/AM e Micro SD - Branco / Azul
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Jenny TV Dual Sim com Câmera integrada, TV, Rádio FM/AM e Micro SD - Branco / Rosa
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Life Play Android 4.2 c/ Câmera integrada 8 MP, 16 GB, 1.5 Ghz, 1 GB Ram e Micro SD - Amarelo
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Life Play Android 4.2 c/ Câmera integrada 8 MP, 16 GB, 1.5 Ghz, 1 GB Ram e Micro SD - Azul
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Life Play Android 4.2 c/ Câmera integrada 8 MP, 16 GB, 1.5 Ghz, 1 GB Ram e Micro SD - Branco
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Life Play Android 4.2 c/ Câmera integrada 8 MP, 16 GB, 1.5 Ghz, 1 GB Ram e Micro SD - Cinza
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Life Play Android 4.2 c/ Câmera integrada 8 MP, 16 GB, 1.5 Ghz, 1 GB Ram e Micro SD - Rosa
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba JR Teclado Qwerty com Câmera integrada 1.3MP, Dual Sim, Rádio FM e Micro SD - Prata
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba JR Teclado Qwerty com Câmera integrada 1.3MP, Dual Sim, Rádio FM e Micro SD - Vermelho
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba TV Dual Chip com Câmera integrada, TV, Rádio FM e Micro SD - Azul / Preto
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba TV Dual Chip com Câmera integrada, TV, Rádio FM e Micro SD - Branco / Rosa
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba W Teclado Qwerty com Câmera integrada, Wi-Fi, Rádio FM/AM e Micro SD - Azul
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba W Teclado Qwerty com Câmera integrada, Wi-Fi, Rádio FM/AM e Micro SD - Cinza
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Celular Blu Samba W Teclado Qwerty com Câmera integrada, Wi-Fi, Rádio FM/AM e Micro SD - Prata
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1863
+Loja: Submarino
+	URL Principal: http://www.submarino.com.br/
+	URL Busca: http://busca.submarino.com.br/busca.php?q=<BUSCA>
+http://busca.submarino.com.br/busca.php?q=Zelda+Majora+Mask
+		Documento Lido
+		Resultados: 25
+		Nome do Produto: Livro - The Legend Of Zelda: Hyrule Historia
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game The Legend of Zelda: Ocarina of Time - Nintendo 3D
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game The Legend of Zelda - A Link Between Worlds - 3DS
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game The Legend of Zelda - The Wind Waker - Wii U
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Placa Decorativa: Keep Calm and Save Zelda
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Legend Of Zelda - Link - Figma
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Boneco Nintendo Amiibo: Zelda - Wii U
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Legend of Zelda: Skyward Sword - Wii
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: The Legend Of Zelda Majoras Mask N3ds
+http://www.submarino.com.br/produto/9957089/the-legend-of-zelda-majoras-mask-n3ds
+		Acessando URL do produto.
+		Nome do Produto: Boneco Amiibo Zelda - Wii U
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Nintendo Amiibo: Zelda - Wii U
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Amiibo - Zelda (Personagem Individual) - Coleção Super Smash Bros - Wii U
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game The Leg of Zelda - Skyward Sword - Wii
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - A Bruxa Zelda e os 80 Docinhos
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - Bom Dia, Sr. Mandela
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - Querido Scott, Querida Zelda: As Cartas de Amor de F. Scott e Zelda Fitzgerald
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - Esta Valsa É Minha
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Saia Zelda Daniele Mabe Com Couro
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - Zelda's Puppy Love
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Kit - Nintendo Wii Preto com Just Dance 3 + Game The Leg Zelda - Twilight Princess
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game The Legend of Zelda: Spirit Tracks - DS
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game The Legend of Zelda: Phantom Hourglass DS
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - Bruxa Zelda E Os 80 Docinhos, A
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Pelúcia Super Mario Zelda DTC
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Livro - The Legend of Zelda Box Set: Prima Official Game Guide
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 925
+Loja: Walmart
+	URL Principal: http://www.walmart.com.br/
+	URL Busca: http://www.walmart.com.br/busca/?ft=<BUSCA>&PS=20
+http://www.walmart.com.br/busca/?ft=Zelda+Majora+Mask&PS=20
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: The Legend of Zelda 3 - Mejora's Mask
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 814
+
+File copied from C:\java\workspace Estudo\lookforprices\resources\imports\css.css to C:\java\workspace Estudo\lookforprices\reports\2015-08-10 12\css.css
+File copied from C:\java\workspace Estudo\lookforprices\resources\imports\jquery.js to C:\java\workspace Estudo\lookforprices\reports\2015-08-10 12\jquery.js
+File copied from C:\java\workspace Estudo\lookforprices\resources\imports\scripts.js to C:\java\workspace Estudo\lookforprices\reports\2015-08-10 12\scripts.js
+Tempo total de execução: 63294
