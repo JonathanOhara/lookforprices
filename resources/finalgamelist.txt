@@ -1,3 +1,6 @@
+project x zone
+Ghost Recon Shadow Wars
+Devil Survivor Overclocked
 Pokemon Black DS
 Pokemon Platinum
 Pokemon Rumble Blast
