@@ -76,8 +76,7 @@ public class LivrariaCulturaSearch implements Search{
 					
 					price = document.select(".price").size() > 0 ? document.select(".price").text().trim(): Keys.INDISPONIVEL;
 					
-					gameCompleteName = document.select(".description").
-							select("h1").text();
+					gameCompleteName = document.select(".description .title").text();
 					
 					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 				}else{

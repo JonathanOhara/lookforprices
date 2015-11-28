@@ -60,7 +60,7 @@ public class AmericanasSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select(".prodTitle").text();
+				previewName = productContainer.select(".prodTitle").attr("title");
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

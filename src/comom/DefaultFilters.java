@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DefaultFilters {
+	
+	private static boolean useDenyWords = false;
+	private static String[] denyWords = {"PS3", "PS4", "playstation", "XBOX", "Xone", "X360", "Wii", "WiiU", "Guide", "PSV", "USADO", "Fricção"};
 
 	public static Filter noFilter(){
 		return new Filter(){
@@ -32,12 +35,23 @@ public class DefaultFilters {
 				List<String> productNameWords = Arrays.asList( productName.toLowerCase().split(" ") );
 				String[] searchedNameWords = searchedName.toLowerCase().split(" ");
 				boolean matches = true;
+				
 				for( String word: searchedNameWords ){
 					
 					if( !wordContainsInList( productNameWords, word) ){
 						matches = false;
 						break;
 					}
+				}
+				
+				if( useDenyWords ){
+					for( String word: denyWords ){
+						
+						if( wordContainsInList( productNameWords, word) ){
+							matches = false;
+							break;
+						}
+					}	
 				}
 				return matches;
 			}
