@@ -71,7 +71,7 @@ public class FNACSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select("#spanValorAtual").size() > 0 ? document.select("#spanValorAtual").text().replace("por R$",  "").trim(): Keys.INDISPONIVEL;
+					price = document.select("#spanValorAtual").size() > 0 ? document.select("#spanValorAtual").text().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select("#nomeProduto").text();
 					

@@ -2,6 +2,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -38,6 +39,7 @@ public class TotalsReport {
 				append("\"Name Searched\"").append(Keys.CSV_SEPARATOR).
 				append("\"Name Found\"").append(Keys.CSV_SEPARATOR).
 				append("\"Price\"").append(Keys.CSV_SEPARATOR).
+				append("\"Price Float\"").append(Keys.CSV_SEPARATOR).
 				append("\"URL\"\n");
 		
 		totalsPerShopContent.append("\"Loja\"").append(Keys.CSV_SEPARATOR).
@@ -45,7 +47,7 @@ public class TotalsReport {
 	}
 	
 	public void generateContent(List<Shop> shops, String nameToSearch){
-
+		NumberFormat z = NumberFormat.getCurrencyInstance();
 		for(Shop shop : shops){
 
 			if( shop.getProducts() != null ){
@@ -54,6 +56,7 @@ public class TotalsReport {
 							append( "\"" ).append( nameToSearch ).append( "\"" ).append(Keys.CSV_SEPARATOR).
 							append( "\"" ).append( product.getName() ).append( "\"" ).append(Keys.CSV_SEPARATOR).
 							append( "\"" ).append( product.getValue() ).append( "\"" ).append(Keys.CSV_SEPARATOR).
+							append( "\"" ).append( z.format( product.getFloatValue() ) ).append( "\"" ).append(Keys.CSV_SEPARATOR).
 							append( "\"" ).append( product.getUrl() ).append( "\"\n" );
 					
 					productsByShop.get( shop.getNome() ).add(product);
@@ -63,6 +66,7 @@ public class TotalsReport {
 					append( "\"" ).append( nameToSearch ).append( "\"" ).append(Keys.CSV_SEPARATOR).
 					append( "\"" ).append( "-" ).append( "\"" ).append(Keys.CSV_SEPARATOR).
 					append( "\"" ).append( "-" ).append( "\"" ).append(Keys.CSV_SEPARATOR).
+					append( "\"" ).append( z.format( 9999.99f ) ).append( "\"" ).append(Keys.CSV_SEPARATOR).
 					append( "\"" ).append( shop.getSearchPattern() ).append( "\"\n" );
 			}
 		}

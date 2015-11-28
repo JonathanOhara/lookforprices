@@ -69,7 +69,7 @@ public class ShopBSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 	
-					price = document.select(".preco-produto.destaque-preco div").size() > 0 ? document.select(".preco-produto.destaque-preco div strong").first().text().trim().replace("R$", ""): Keys.INDISPONIVEL;
+					price = document.select(".preco-produto.destaque-preco div").size() > 0 ? document.select(".preco-produto.destaque-preco div strong").first().text().trim() : Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select(".nome-produto").first().text();
 					

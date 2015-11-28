@@ -73,7 +73,7 @@ public class SaraivaSearch implements Search{
 					System.out.println("\t\tAcessando URL do produto.");
 					
 					price = document.select(".contentProductRight").size() > 0 
-						? document.select(".contentProductRight").select(".finalPrice").
+						? document.select(".contentProductRight").select(".finalPrice b").
 								first().text().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select("h1").first().text();
