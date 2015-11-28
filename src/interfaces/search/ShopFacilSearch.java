@@ -31,7 +31,7 @@ public class ShopFacilSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".prodImage");
+			Elements els = document.select(".games---shopfacil-com");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,7 +59,7 @@ public class ShopFacilSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.parent().select("h3 a").text();
+				previewName = productContainer.select("h3").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

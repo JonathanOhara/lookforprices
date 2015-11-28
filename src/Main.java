@@ -37,6 +37,7 @@ import java.util.List;
 import objects.Shop;
 
 import comom.DefaultFilters;
+import comom.MyPrintStream;
 import comom.Util;
 
 
@@ -45,6 +46,7 @@ public class Main {
 	//private final static String gameListAdress = "C:/java/rep/LookForPrices/resources/gamelist.txt";
 	private static String gameListAdress = "";
 	private static String logAdress = "";
+	private static TotalsReport totalsReport;
 	
 	public static void main(String[] args) throws IOException, URISyntaxException {
 
@@ -52,11 +54,18 @@ public class Main {
 		
 		gameListAdress = Util.getProjectPath() + "/resources/finalgamelist.txt";
 		File gameList = readFile();
+		
+		totalsReport = new TotalsReport( shops );
+		totalsReport.generateHeaders();
+		
 		for( String gameName: Util.ler(gameList) ){
 			configurarSaida(gameName);
 			System.out.println("Game: "+gameName);
 			generateHtmlReport(gameName, shops);
 		}
+		
+		totalsReport.closeAndWriteFile();
+		
 		/*
 		String gameName = "GameName";
 		configurarSaida(gameName);
@@ -66,10 +75,11 @@ public class Main {
 		
 	private static void configurarSaida(String productName) throws FileNotFoundException, IOException {
 		logAdress = Util.getReportsPath() + "/" + productName + ".log";
-		PrintStream fileStream = new PrintStream( new FileOutputStream( logAdress, false ) );
+		PrintStream fileStream = new MyPrintStream(new FileOutputStream( logAdress, true ), System.out);
 		
 		System.setOut(fileStream);
 		System.setErr(fileStream);
+		
 	}
 
 	public static void generateHtmlReport(String nameToSearch, List<Shop> shops) throws URISyntaxException, IOException{ 
@@ -77,7 +87,7 @@ public class Main {
 
 		System.out.println("Product Name: "+nameToSearch);
 		
-		HtmlReport htmlReport = new HtmlReport();
+		GamesReport htmlReport = new GamesReport();
 
 		String data = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
 
@@ -96,6 +106,8 @@ public class Main {
 		htmlReport.addLogTab( nameToSearch );
 		
 		htmlReport.closeAndWriteFile(nameToSearch);
+		
+		totalsReport.generateContent(shops, nameToSearch);
 		
 		System.out.println("Tempo total de execução: "+(System.currentTimeMillis() - time));
 	}
@@ -121,16 +133,15 @@ public class Main {
 		shops.add( new Shop( "Ponto Frio", "http://www.pontofrio.com.br/", "http://search.pontofrio.com.br/search?w=<BUSCA>", new PontoFrioSearch() ) );
 		shops.add( new Shop( "Ricardo Eletro", "http://www.ricardoeletro.com.br/", "http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>", new RicardoEletroSearch() ) );
 		shops.add( new Shop( "RiHappy", "http://www.rihappy.com.br/", "http://www.rihappy.com.br/<BUSCA>", new RiHappySearch() ) );
-		shops.add( new Shop( "Saraiva", "http://www.saraiva.com.br/", "http://busca.saraiva.com.br/search?w=<BUSCA>&PAC_ID=129457&ts=ajax", new SaraivaSearch() ) );
+		shops.add( new Shop( "Saraiva", "http://www.saraiva.com.br/", "http://busca.saraiva.com.br/?q=<BUSCA>", new SaraivaSearch() ) );
 		shops.add( new Shop( "Shop Facil", "http://ww2.shopfacil.com.br/", "http://ww2.shopfacil.com.br/<BUSCA>", new ShopFacilSearch( )) );
 		shops.add( new Shop( "Shop Time", "http://www.shoptime.com.br/", "http://busca.shoptime.com.br/busca.php?q=<BUSCA>", new ShopTimeSearch()) );
-		shops.add( new Shop( "ShopB", "http://www.shopb.com.br/", "http://busca.shopb.com.br/?busca=<BUSCA>", new ShopBSearch() ) );
+		shops.add( new Shop( "ShopB", "http://www.shopb.com.br/", "http://www.shopb.com.br/buscar?q=<BUSCA>", new ShopBSearch() ) );
 		shops.add( new Shop( "Submarino", "http://www.submarino.com.br/", "http://busca.submarino.com.br/busca.php?q=<BUSCA>", new SubmarinoSearch() ) );
 		shops.add( new Shop( "Walmart", "http://www.walmart.com.br/", "http://www.walmart.com.br/busca/?ft=<BUSCA>&PS=20", new WalmartSearch() ) );
-
 		return shops;
 	}
-	
+
 	private static File readFile() {
 		return new File( gameListAdress );
 	}

@@ -2,8 +2,6 @@ package objects;
 import interfaces.Filter;
 import interfaces.search.Search;
 
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 
@@ -14,6 +12,8 @@ public class Shop {
 	private String mainUrl;
 	private String searchPattern;
 	private Search searcher;
+	
+	private List<Product> products;
 	
 	
 	public Shop(String nome, String mainUrl, String searchPattern, Search searcher) {
@@ -30,31 +30,29 @@ public class Shop {
 		System.out.println("\tURL Busca: "+searchPattern);
 		
 		long time = System.currentTimeMillis();
-		List<Product> products = searcher.search(this, productName, filter);
+		products = searcher.search(this, productName, filter);
 		System.out.println("\tTempo Para buscar: "+(System.currentTimeMillis() - time));
 		
 		if( products != null ){
-			
+			/*
 			Collections.sort(products, new Comparator<Product>() {
 				@Override
 				public int compare(Product o1, Product o2) {
-					int valor1, valor2;
+					float valor1, valor2;
 					
 					valor1 = valor2 = 0;
-					try{
-						valor1 = Integer.parseInt(o1.getValue());
-					}catch(Exception e){
-						valor1 = 0;
+					valor1 = o1.getFloatValue();
+					valor2 = o2.getFloatValue();
+					
+					if( "Nintendo eShop".equals(valor1) ){
+						
 					}
 					
-					try{
-						valor2 = Integer.parseInt(o2.getValue());
-					}catch(Exception e){
-						valor2 = 0;
-					}
-					return Integer.compare(valor1, valor2);
+					
+					return Float.compare(valor1, valor2);
 				}
 			});
+			*/
 			
 		}
 		return products;
@@ -77,6 +75,14 @@ public class Shop {
 	}
 	public void setSearchPattern(String searchPattern) {
 		this.searchPattern = searchPattern;
+	}
+
+	public List<Product> getProducts() {
+		return products;
+	}
+
+	public void setProducts(List<Product> products) {
+		this.products = products;
 	}
 
 	

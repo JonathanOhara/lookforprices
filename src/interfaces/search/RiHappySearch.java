@@ -31,7 +31,7 @@ public class RiHappySearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select("article");
+			Elements els = document.select("li.games");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,7 +59,7 @@ public class RiHappySearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 			
-				previewName = productContainer.select(".product-truncate a").text();
+				previewName = productContainer.select(".product-truncate").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

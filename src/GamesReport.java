@@ -11,7 +11,7 @@ import objects.Shop;
 import comom.Util;
 
 
-public class HtmlReport {
+public class GamesReport {
 
 	private StringBuilder htmlFinal;
 	private StringBuilder htmlReport;
@@ -19,7 +19,7 @@ public class HtmlReport {
 	private StringBuilder htmlMeta;
 	private StringBuilder htmlLog;
 
-	public HtmlReport() {
+	public GamesReport() {
 		htmlFinal = new StringBuilder();
 		
 		

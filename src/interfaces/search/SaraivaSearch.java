@@ -31,7 +31,7 @@ public class SaraivaSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".item");
+			Elements els = document.select(".cs-product-container");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,22 +59,24 @@ public class SaraivaSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select(".product-name a").text();
+				previewName = productContainer.select(".cs-product-title").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
 				if( filter.filter(previewName, productName) ){
 					individualUrl = productContainer.select("a").first().attr("href");
+					if( individualUrl.startsWith("//") ){
+						individualUrl = "http:" + individualUrl;
+					}
 					
-					System.out.println("individualUrl = "+individualUrl);
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".contetProductRigth").size() > 0 
-						? document.select(".contetProductRigth").select(".finalPrice").
+					price = document.select(".contentProductRight").size() > 0 
+						? document.select(".contentProductRight").select(".finalPrice").
 								first().text().trim(): Keys.INDISPONIVEL;
 	
-					gameCompleteName = document.select(".breadcrumb").first().text();
+					gameCompleteName = document.select("h1").first().text();
 					
 					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 				}else{

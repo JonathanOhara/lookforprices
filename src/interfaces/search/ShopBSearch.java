@@ -31,7 +31,7 @@ public class ShopBSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".productImage");
+			Elements els = document.select(".listagem-item");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -58,7 +58,7 @@ public class ShopBSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.parent().parent().parent().select(".produto_nome").text();
+				previewName = productContainer.select(".info-produto a").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
@@ -69,9 +69,9 @@ public class ShopBSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 	
-					price = document.select(".preco_venda").size() > 0 ? document.select(".preco_venda").first().text().trim().replace("R$", ""): Keys.INDISPONIVEL;
+					price = document.select(".preco-produto.destaque-preco div").size() > 0 ? document.select(".preco-produto.destaque-preco div strong").first().text().trim().replace("R$", ""): Keys.INDISPONIVEL;
 	
-					gameCompleteName = document.select(".ex_pro_nome strong").text();
+					gameCompleteName = document.select(".nome-produto").first().text();
 					
 					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 				}else{

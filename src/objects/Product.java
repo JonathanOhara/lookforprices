@@ -41,6 +41,16 @@ public class Product {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+	public float getFloatValue(){
+		float returnValue = 0;
+		try{
+			returnValue = Float.parseFloat( getValue() );
+		}catch(Exception e){
+			returnValue = 0;
+		}
+		
+		return returnValue;
+	}
 	public String getValue() {
 		return value;
 	}
