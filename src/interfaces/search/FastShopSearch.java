@@ -31,7 +31,7 @@ public class FastShopSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".grid_mode");
+			Elements els = document.select(".product");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -46,24 +46,20 @@ public class FastShopSearch implements Search{
 
 	private List<Product> readEachProduct(Shop shop, String productName, Elements els, Filter filter) throws IOException {
 		String previewName;
-		String response;
 		String gameCompleteName;
 		String individualUrl;
 		String price;
-		String aux;
 		Document document;
 		Element productContainer;
 		List<Product> products = null;
 		
 		if( els.size() > 0 ){
-			els = els.first().select(".product_name");
-			
 			products = new ArrayList<Product>(els.size());
 			
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select("h2.name").text();
+				previewName = productContainer.select(".product_name").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
@@ -72,20 +68,15 @@ public class FastShopSearch implements Search{
 					individualUrl = productContainer.select("a").first().attr("href");
 					
 					document = Util.readUrlDocument( individualUrl );
-					response = document.toString();
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					if( response.indexOf( "'productSalePrice'" ) > -1 ){
-						aux = response.substring( response.indexOf( "'productSalePrice'" ), response.indexOf( "'productQuantity'" ) );
-						price = aux.substring( aux.indexOf(":") + 3, aux.indexOf(",") - 2);
-					}else{
-						price = Keys.INDISPONIVEL;
-					}
-	
-					gameCompleteName = document.select("h1").
-							first().text();
+					price = document.select(".price").size() > 0 ? document.select(".price").first().html().toString().trim(): Keys.INDISPONIVEL;
 					
-					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price) );
+					if( document.select(".titlebar h1").size() > 0 ){
+						gameCompleteName = document.select(".titlebar h1").	first().text();
+					
+						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
+					}
 				}else{
 					System.out.println("\t\t\tIgorando Pelo Filtro de Nome...");
 				}

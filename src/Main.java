@@ -1,4 +1,5 @@
 import interfaces.search.AmericanasSearch;
+import interfaces.search.BalaoDaInformaticaSearch;
 import interfaces.search.BigBoyGamesSearch;
 import interfaces.search.CasasBahiaSearch;
 import interfaces.search.EVirtuaSearch;
@@ -21,6 +22,7 @@ import interfaces.search.ShopFacilSearch;
 import interfaces.search.ShopTimeSearch;
 import interfaces.search.SubmarinoSearch;
 import interfaces.search.WalmartSearch;
+import interfaces.search.ZigStoreSearch;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -119,6 +121,7 @@ public class Main {
 
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
 		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );
+		shops.add( new Shop( "Balão da Informática", "https://www.balaodainformatica.com.br/", "https://www.balaodainformatica.com.br/Produtos/Buscar/?busca=<BUSCA>", new BalaoDaInformaticaSearch() ) );
 		shops.add( new Shop( "Casas Bahia", "http://www.casasbahia.com.br/", "http://buscas.casasbahia.com.br/search?w=<BUSCA>", new CasasBahiaSearch() ) );
 		shops.add( new Shop( "Extra", "http://www.extra.com.br/", "http://buscando.extra.com.br/search?w=<BUSCA>", new ExtraSearch() ) );
 		shops.add( new Shop( "E-Virtua", "http://www.evirtua.com.br/", "http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>", new EVirtuaSearch() ) );
@@ -139,6 +142,9 @@ public class Main {
 		shops.add( new Shop( "ShopB", "http://www.shopb.com.br/", "http://www.shopb.com.br/buscar?q=<BUSCA>", new ShopBSearch() ) );
 		shops.add( new Shop( "Submarino", "http://www.submarino.com.br/", "http://busca.submarino.com.br/busca.php?q=<BUSCA>", new SubmarinoSearch() ) );
 		shops.add( new Shop( "Walmart", "http://www.walmart.com.br/", "http://www.walmart.com.br/busca/?ft=<BUSCA>&PS=20", new WalmartSearch() ) );
+		shops.add( new Shop( "Zig Store", "http://www.zigstore.com.br/", "http://www.zigstore.com.br/pesquisa/?p=<BUSCA>", new ZigStoreSearch() ) );
+		
+		
 		return shops;
 	}
 

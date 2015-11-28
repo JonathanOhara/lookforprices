@@ -18,8 +18,9 @@ import org.jsoup.select.Elements;
 import comom.Keys;
 import comom.Util;
 
-public class ShopFacilSearch implements Search{
+public class BalaoDaInformaticaSearch implements Search{
 
+	
 	@Override
 	public List<Product> search(Shop shop, String productName, Filter filter) {
 		List<Product> products = null;
@@ -31,7 +32,7 @@ public class ShopFacilSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".games---shopfacil-com");
+			Elements els = document.select(".produto-box-container");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,21 +60,25 @@ public class ShopFacilSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select("h3").text();
+				previewName = productContainer.select(".nome").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
 				if( filter.filter(previewName, productName) ){
 					individualUrl = productContainer.select("a").first().attr("href");
 					
+					if( !individualUrl.contains(shop.getMainUrl()) ){
+						individualUrl = shop.getMainUrl() + individualUrl;
+					}
+					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
-					
-					price = document.select(".skuBestPrice").size() > 0 ? document.select(".skuBestPrice").first().text().trim(): Keys.INDISPONIVEL;
 
-					gameCompleteName = document.select(".u-center .fn").size() > 0 ? document.select(".u-center .fn").first().text(): null;
+					price = document.select(".avista").size() > 0 ? document.select(".avista").first().html().toString().trim(): Keys.INDISPONIVEL;
+	
+					if( document.select(".produto-detalhe #nome").size() > 0 ){
+						gameCompleteName = document.select(".produto-detalhe #nome").first().text();
 					
-					if( gameCompleteName != null ){
 						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 					}
 				}else{
@@ -87,8 +92,8 @@ public class ShopFacilSearch implements Search{
 
 	private Document readResults(Shop shop, String productName)	throws IOException, MalformedURLException, URISyntaxException {
 		Document document;
-		document = Util.readUrlDocument( Util.prepareUrlMode2( shop.getSearchPattern(), productName ) );
+		document = Util.readUrlDocument( Util.prepareUrlMode1( shop.getSearchPattern(), productName ) );
 		return document;
-	}
+	}	
 	
 }

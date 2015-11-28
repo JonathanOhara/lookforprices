@@ -64,7 +64,7 @@ public class ShopBSearch implements Search{
 				
 				if( filter.filter(previewName, productName) ){
 				
-					individualUrl = productContainer.attr("href");
+					individualUrl = productContainer.select("a").first().attr("href");
 					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");

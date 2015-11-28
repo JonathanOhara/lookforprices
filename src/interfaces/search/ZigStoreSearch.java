@@ -18,25 +18,30 @@ import org.jsoup.select.Elements;
 import comom.Keys;
 import comom.Util;
 
-public class ShopFacilSearch implements Search{
+public class ZigStoreSearch implements Search{
 
+	
 	@Override
 	public List<Product> search(Shop shop, String productName, Filter filter) {
 		List<Product> products = null;
-		
+
 		Document document;
-		
 		try{
 			document = readResults(shop, productName);
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".games---shopfacil-com");
+			Elements els = document.select(".products li");
 			
-			System.out.println("\t\tResultados: "+els.size());
-			
-			products = readEachProduct(shop, productName, els, filter);
-			
+			if( document.location().contains("pesquisa") ){
+				System.out.println("\t\tResultados: "+els.size());
+				products = readEachProduct(shop, productName, els, filter);
+			}else{
+				System.out.println("\t\tResultados*: 1");
+				products = new ArrayList<Product>();
+				readProductPage(Util.prepareUrlMode1( shop.getSearchPattern(), productName ), document, null, products);
+			}
+
 		}catch(Exception e){
 			e.printStackTrace();
 		}
@@ -46,9 +51,7 @@ public class ShopFacilSearch implements Search{
 
 	private List<Product> readEachProduct(Shop shop, String productName, Elements els, Filter filter) throws IOException {
 		String previewName;
-		String gameCompleteName;
 		String individualUrl;
-		String price;
 		Document document;
 		Element productContainer;
 		List<Product> products = null;
@@ -59,7 +62,7 @@ public class ShopFacilSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select("h3").text();
+				previewName = productContainer.select(".product-name").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
@@ -67,15 +70,8 @@ public class ShopFacilSearch implements Search{
 					individualUrl = productContainer.select("a").first().attr("href");
 					
 					document = Util.readUrlDocument( individualUrl );
-					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".skuBestPrice").size() > 0 ? document.select(".skuBestPrice").first().text().trim(): Keys.INDISPONIVEL;
-
-					gameCompleteName = document.select(".u-center .fn").size() > 0 ? document.select(".u-center .fn").first().text(): null;
-					
-					if( gameCompleteName != null ){
-						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
-					}
+					readProductPage(individualUrl, document, productContainer, products);
 				}else{
 					System.out.println("\t\t\tIgorando Pelo Filtro de Nome...");
 				}
@@ -84,11 +80,23 @@ public class ShopFacilSearch implements Search{
 		}
 		return products;
 	}
+	
+	private void readProductPage(String individualUrl, Document document, Element productContainer, List<Product> products) {
+		String gameCompleteName;
+		String price;
+		
+		System.out.println("\t\tAcessando URL do produto.");
+		
+		price = document.select(".sale").size() > 0 ? document.select(".sale").first().text().trim(): Keys.INDISPONIVEL;
+		gameCompleteName = document.select("h1 a").first().text();
+		
+		products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
+	}
 
 	private Document readResults(Shop shop, String productName)	throws IOException, MalformedURLException, URISyntaxException {
 		Document document;
-		document = Util.readUrlDocument( Util.prepareUrlMode2( shop.getSearchPattern(), productName ) );
+		document = Util.readUrlDocument( Util.prepareUrlMode1( shop.getSearchPattern(), productName ) );
 		return document;
-	}
+	}	
 	
 }
