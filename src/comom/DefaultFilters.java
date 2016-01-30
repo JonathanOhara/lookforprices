@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DefaultFilters {
 	
-	private static boolean useDenyWords = false;
+	private static boolean useDenyWords = true;
 	private static String[] denyWords = {"PS3", "PS4", "playstation", "XBOX", "Xone", "X360", "Wii", "WiiU", "Guide", "PSV", "USADO", "Fricção"};
 
 	public static Filter noFilter(){

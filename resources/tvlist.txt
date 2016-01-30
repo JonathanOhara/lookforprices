@@ -1,4 +1,3 @@
-Smart TV Samsung 40
-Smart TV Sony 40
-Smart TV Samsung 42
-Smart TV Sony 42
+Smart TV 32
+Smart TV 40
+Smart TV 42
