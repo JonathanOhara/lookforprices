@@ -31,7 +31,7 @@ public class MulaGamesSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".conteudoListagemProdutosProduto3");
+			Elements els = document.select(".itemProdutoListagem");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,7 +59,7 @@ public class MulaGamesSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 
-				previewName = productContainer.select(".html_nome_produto_link").text();
+				previewName = productContainer.select(".boxNomeProdutoListagem").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
@@ -96,7 +96,7 @@ public class MulaGamesSearch implements Search{
 
 	private Document readResults(Shop shop, String productName)	throws IOException, MalformedURLException, URISyntaxException {
 		Document document;
-		document = Util.readUrlDocument( Util.prepareUrlMode2( shop.getSearchPattern(), productName ) );
+		document = Util.readUrlDocument( Util.prepareUrlMode1( shop.getSearchPattern(), productName ) );
 		return document;
 	}
 	

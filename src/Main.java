@@ -121,17 +121,17 @@ public class Main {
 
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
 		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );
-		shops.add( new Shop( "Balão da Informática", "https://www.balaodainformatica.com.br/", "https://www.balaodainformatica.com.br/Produtos/Buscar/?busca=<BUSCA>", new BalaoDaInformaticaSearch() ) );
+		shops.add( new Shop( "Balão da Informática", "https://www.balaodainformatica.com.br/", "http://www.balaodainformatica.com.br/digimon?&utmi_p=_Produtos_Buscar_&utmi_pc=BuscaFullText&utmi_cp=<BUSCA>", new BalaoDaInformaticaSearch() ) );
 		shops.add( new Shop( "Casas Bahia", "http://www.casasbahia.com.br/", "http://buscas.casasbahia.com.br/search?w=<BUSCA>", new CasasBahiaSearch() ) );
 		shops.add( new Shop( "Extra", "http://www.extra.com.br/", "http://buscando.extra.com.br/search?w=<BUSCA>", new ExtraSearch() ) );
 		shops.add( new Shop( "E-Virtua", "http://www.evirtua.com.br/", "http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>", new EVirtuaSearch() ) );
 		shops.add( new Shop( "Fast Games", "http://www.fastgames.com.br/", "http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>", new FastGamesSearch() ) );
 		shops.add( new Shop( "Fast Shop", "http://www.fastshop.com.br/loja/", "http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop", new FastShopSearch() ) );
-		shops.add( new Shop( "FNAC", "http://www.fnac.com.br/index.html", "http://busca.fnac.com.br/?busca=<BUSCA>", new FNACSearch() ) );
+		shops.add( new Shop( "FNAC", "http://www.fnac.com.br/index.html", "http://www.fnac.com.br/<BUSCA>", new FNACSearch() ) );
 		shops.add( new Shop( "Kabum", "http://www.kabum.com.br/", "http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=<BUSCA>&btnG=", new KabumSearch() ) );
 		shops.add( new Shop( "Livraria Cultura", "http://www.livrariacultura.com.br/", "http://www.livrariacultura.com.br/busca?N=0&Ntt=<BUSCA>", new LivrariaCulturaSearch() ) );
 		shops.add( new Shop( "Magazine Luiza", "http://www.magazineluiza.com.br/", "http://www.magazineluiza.com.br/busca/<BUSCA>/", new MagazineLuizaSearch() ) );
-		shops.add( new Shop( "Mula Games", "http://www.mulagames.com.br/", "http://www.mulagames.com.br/produtos-index/catalogo_produtos/-/-/<BUSCA>/-/-/-/-/-/", new MulaGamesSearch() ) );
+		shops.add( new Shop( "Mula Games", "http://www.mulagames.com.br/", "https://www.mulagames.com.br/busca-busca_produtos?nome_produto=<BUSCA>", new MulaGamesSearch() ) );
 		shops.add( new Shop( "Net Shoes", "http://www.netshoes.com.br/", "http://www.netshoes.com.br/search?Ntt=<BUSCA>", new NetShoesSearch()) );
 		shops.add( new Shop( "Ponto Frio", "http://www.pontofrio.com.br/", "http://search.pontofrio.com.br/search?w=<BUSCA>", new PontoFrioSearch() ) );
 		shops.add( new Shop( "Ricardo Eletro", "http://www.ricardoeletro.com.br/", "http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>", new RicardoEletroSearch() ) );

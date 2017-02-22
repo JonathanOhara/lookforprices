@@ -31,7 +31,7 @@ public class ShopTimeSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".pList li");
+			Elements els = document.select(".product-grid .product-grid-item");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,7 +59,7 @@ public class ShopTimeSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 
-				previewName = productContainer.parent().select(".name").text();
+				previewName = productContainer.select(".card-product-name").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

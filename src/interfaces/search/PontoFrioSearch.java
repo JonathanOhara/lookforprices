@@ -66,7 +66,7 @@ public class PontoFrioSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select("h2.name").text();
+				previewName = productContainer.select("h3.name").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

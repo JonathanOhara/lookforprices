@@ -31,7 +31,7 @@ public class WalmartSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".shelf-item");
+			Elements els = document.select(".shelf-product-item");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			

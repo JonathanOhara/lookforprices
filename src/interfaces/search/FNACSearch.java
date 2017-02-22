@@ -30,7 +30,7 @@ public class FNACSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".itemPesquisaQuadro");
+			Elements els = document.select(".prateleira li");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -60,7 +60,7 @@ public class FNACSearch implements Search{
 			do{
 				productContainer = element;
 				
-				previewName = productContainer.select(".itemPesquisaNome a").text();
+				previewName = productContainer.select(".x-name-produto-input").val();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
@@ -89,7 +89,7 @@ public class FNACSearch implements Search{
 
 	private Document readResults(Shop shop, String productName)	throws IOException, MalformedURLException, URISyntaxException {
 		Document document;
-		document = Util.readUrlDocument( Util.prepareUrlMode1( shop.getSearchPattern(), productName ) );
+		document = Util.readUrlDocument( Util.prepareUrlMode2( shop.getSearchPattern(), productName ) );
 		return document;
 	}
 	

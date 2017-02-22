@@ -32,7 +32,7 @@ public class AmericanasSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select("article");
+			Elements els = document.select(".product-grid .product-grid-item");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -60,7 +60,7 @@ public class AmericanasSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select(".prodTitle").attr("title");
+				previewName = productContainer.select(".card-product-name").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
@@ -72,8 +72,8 @@ public class AmericanasSearch implements Search{
 					
 					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().nextElementSibling().html().toString().trim(): Keys.INDISPONIVEL;
 	
-					if( document.select(".mp-tit-name").size() > 0 ){
-						gameCompleteName = document.select(".mp-tit-name").	first().text();
+					if( document.select(".product-name").size() > 0 ){
+						gameCompleteName = document.select(".product-name").	first().text();
 					
 						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 					}

@@ -31,7 +31,7 @@ public class LivrariaCulturaSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".product");
+			Elements els = document.select(".product-new-box");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,7 +59,7 @@ public class LivrariaCulturaSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select("h2 a").text();
+				previewName = productContainer.select(".product-title-new a").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

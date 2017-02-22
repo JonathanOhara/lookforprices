@@ -32,7 +32,7 @@ public class FastGamesSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select(".produto-item");
+			Elements els = document.select(".product-item");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -60,7 +60,7 @@ public class FastGamesSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select(".nomeProd a").text();
+				previewName = productContainer.select(".product-name h3").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				

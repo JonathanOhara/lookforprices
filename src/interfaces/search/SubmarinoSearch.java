@@ -31,7 +31,7 @@ public class SubmarinoSearch implements Search{
 			
 			System.out.println("\t\tDocumento Lido");
 			
-			Elements els = document.select("article");
+			Elements els = document.select(".product-grid .product-grid-item");
 			
 			System.out.println("\t\tResultados: "+els.size());
 			
@@ -59,7 +59,7 @@ public class SubmarinoSearch implements Search{
 			for( Element element : els ){
 				productContainer = element;
 				
-				previewName = productContainer.select(".prodTitle").text();
+				previewName = productContainer.select(".card-product-name").text();
 				
 				System.out.println("\t\tNome do Produto: "+previewName);
 				
