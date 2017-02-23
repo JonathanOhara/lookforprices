@@ -13,6 +13,7 @@ import interfaces.search.MagazineLuizaSearch;
 import interfaces.search.MulaGamesSearch;
 import interfaces.search.NetShoesSearch;
 import interfaces.search.NintendoEShopSearch;
+import interfaces.search.PSStoreSearch;
 import interfaces.search.PontoFrioSearch;
 import interfaces.search.RiHappySearch;
 import interfaces.search.RicardoEletroSearch;
@@ -37,7 +38,6 @@ import java.util.Date;
 import java.util.List;
 
 import objects.Shop;
-
 import comom.DefaultFilters;
 import comom.MyPrintStream;
 import comom.Util;
@@ -118,6 +118,7 @@ public class Main {
 		List<Shop> shops = new ArrayList<Shop>();
 		
 		shops.add( new Shop( "Nintendo eShop", "http://www.nintendo.com/3ds/eshop", "http://www.nintendo.com/json/content/get/game/filter?&qterm=<BUSCA>", new NintendoEShopSearch() ) );
+		shops.add( new Shop( "PlayStation Store", "https://store.playstation.com/#!/pt-br/home/main", "https://store.playstation.com/#!/pt-br/pesquisar/q=<BUSCA>", new PSStoreSearch() ) );
 
 		shops.add( new Shop( "Americanas", "http://www.americanas.com.br/", "http://busca.americanas.com.br/busca.php?q=<BUSCA>", new AmericanasSearch() ) );
 		shops.add( new Shop( "Big Boy Games", "http://www.bigboygames.com.br/", "http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>", new BigBoyGamesSearch() ) );
