@@ -66,10 +66,8 @@ public class FastGamesSearch implements Search{
 				
 				if( filter.filter(previewName, productName) ){
 					individualUrl = productContainer.select("a").first().attr("href");
+					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
 					
-					if( !individualUrl.contains(shop.getMainUrl()) ){
-						individualUrl = shop.getMainUrl() + individualUrl.substring(1);
-					}
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					

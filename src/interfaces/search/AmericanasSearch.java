@@ -67,13 +67,15 @@ public class AmericanasSearch implements Search{
 				if( filter.filter(previewName, productName) ){
 					individualUrl = productContainer.select("a").first().attr("href");
 					
+					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
+					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().nextElementSibling().html().toString().trim(): Keys.INDISPONIVEL;
+					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().text().toString().trim(): Keys.INDISPONIVEL;
 	
 					if( document.select(".product-name").size() > 0 ){
-						gameCompleteName = document.select(".product-name").	first().text();
+						gameCompleteName = document.select(".product-name").first().text();
 					
 						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 					}

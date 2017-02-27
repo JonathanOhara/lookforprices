@@ -65,10 +65,7 @@ public class NetShoesSearch implements Search{
 				
 				if( filter.filter(previewName, productName) ){
 					individualUrl = productContainer.select("a").last().attr("href");
-					
-					if( !individualUrl.contains(shop.getMainUrl()) ){
-						individualUrl = shop.getMainUrl() + individualUrl;
-					}
+					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
 					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");

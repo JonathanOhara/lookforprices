@@ -65,15 +65,12 @@ public class MagazineLuizaSearch implements Search{
 				
 				if( filter.filter(previewName, productName) ){
 					individualUrl = productContainer.select("a").first().attr("href");
-					
-					if( !individualUrl.contains(shop.getMainUrl()) ){
-						individualUrl = shop.getMainUrl() + individualUrl;
-					}
+					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
 					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".right-price").size() > 0 ? document.select(".right-price").first().select("strong").text().trim(): Keys.INDISPONIVEL;
+					price = document.select(".js-price-value").first() !=  null ? document.select(".js-price-value").first().text().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select("h1").first().text();
 					

@@ -66,17 +66,14 @@ public class LivrariaCulturaSearch implements Search{
 				if( filter.filter(previewName, productName) ){
 				
 					individualUrl = productContainer.select("a").last().attr("href");
-					
-					if( !individualUrl.contains(shop.getMainUrl()) ){
-						individualUrl = shop.getMainUrl() + individualUrl;
-					}
+					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
 					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
 					price = document.select(".price").size() > 0 ? document.select(".price").text().trim(): Keys.INDISPONIVEL;
 					
-					gameCompleteName = document.select(".description .title").text();
+					gameCompleteName = document.select(".description h1.title").text();
 					
 					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 				}else{

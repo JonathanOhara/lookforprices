@@ -66,16 +66,18 @@ public class ShopTimeSearch implements Search{
 				if( filter.filter(previewName, productName) ){
 					
 					individualUrl = productContainer.select("a").first().attr("href");
+					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
 					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().nextElementSibling().html().trim(): Keys.INDISPONIVEL;
+					price = document.select(".sales-price").size() > 0 ? document.select(".sales-price").first().text().trim(): Keys.INDISPONIVEL;
 	
-					gameCompleteName = document.select(".mp-tit-name").
-							first().text();
+					if( document.select(".product-name").size() > 0 ){
+						gameCompleteName = document.select(".product-name").first().text();
 					
-					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
+						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
+					}
 				}else{
 					System.out.println("\t\t\tIgorando Pelo Filtro de Nome...");	
 				}

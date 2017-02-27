@@ -181,6 +181,21 @@ public class Util {
 		return searchPattern.replace(Keys.BUSCA, productName.replaceAll(" ", "%20") );
 	}
 	
+	public static String makeAbsoluteURL(String baseUrl, String individualUrl){
+		String absoluteUrl = individualUrl;
+		
+		if( !individualUrl.contains( baseUrl ) ){
+			if(individualUrl.charAt(0) == '/'){
+				absoluteUrl = baseUrl + individualUrl.substring(1);	
+			}else{
+				absoluteUrl = baseUrl + individualUrl;
+			}
+			
+		}
+		
+		return absoluteUrl;
+	}
+	
 	public static void copyFolder(File src, File dest) throws IOException{
 	 
     	if(src.isDirectory()){

@@ -30,8 +30,7 @@ public class PSStoreSearch implements Search{
 		try{
 			document = readResults(shop, productName);
 			
-			
-			System.out.println("\t\tDocumento Lido\n"+document.toString());
+			System.out.println("\t\tDocumento Lido\n");
 			
 			Elements els = document.select(".cellGridGameStandard");
 			
