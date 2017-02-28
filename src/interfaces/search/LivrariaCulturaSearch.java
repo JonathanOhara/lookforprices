@@ -65,7 +65,7 @@ public class LivrariaCulturaSearch implements Search{
 				
 				if( filter.filter(previewName, productName) ){
 				
-					individualUrl = productContainer.select("a").last().attr("href");
+					individualUrl = productContainer.select("a").first().attr("href");
 					individualUrl = Util.makeAbsoluteURL(shop.getMainUrl(), individualUrl );
 					
 					document = Util.readUrlDocument( individualUrl );

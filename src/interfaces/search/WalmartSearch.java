@@ -70,7 +70,7 @@ public class WalmartSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".product-price").size() > 0 ? document.select(".product-price").first().attr("data-sellprice").toString().trim(): Keys.INDISPONIVEL;
+					price = document.select(".product-price-value").size() > 0 ? document.select(".product-price-value").text().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select("h1").first().text();
 					

@@ -41,3 +41,9 @@ article {
   border-top: gray solid 1px;
   padding: 0 1em;
 }
+table{
+	border-collapse: collpase;
+}
+table, th, td{
+	border: 1px black solid;
+}

@@ -70,7 +70,7 @@ public class MagazineLuizaSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".js-price-value").first() !=  null ? document.select(".js-price-value").first().text().trim(): Keys.INDISPONIVEL;
+					price = document.select("#productCashPrice").val() !=  null ? document.select("#productCashPrice").val().trim(): Keys.INDISPONIVEL;
 	
 					gameCompleteName = document.select("h1").first().text();
 					

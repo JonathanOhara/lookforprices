@@ -89,7 +89,7 @@ public class Main {
 
 		System.out.println("Product Name: "+nameToSearch);
 		
-		GamesReport htmlReport = new GamesReport();
+		GamesReport htmlReport = new GamesReport(nameToSearch);
 
 		String data = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
 
