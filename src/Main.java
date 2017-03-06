@@ -127,7 +127,7 @@ public class Main {
 		shops.add( new Shop( "Extra", "http://www.extra.com.br/", "http://buscando.extra.com.br/search?w=<BUSCA>", new ExtraSearch() ) );
 		shops.add( new Shop( "E-Virtua", "http://www.evirtua.com.br/", "http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>", new EVirtuaSearch() ) );
 		shops.add( new Shop( "Fast Games", "http://www.fastgames.com.br/", "http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>", new FastGamesSearch() ) );
-		shops.add( new Shop( "Fast Shop", "http://www.fastshop.com.br/loja/", "http://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop", new FastShopSearch() ) );
+		shops.add( new Shop( "Fast Shop", "http://www.fastshop.com.br/loja/", "https://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop", new FastShopSearch() ) );
 		shops.add( new Shop( "FNAC", "http://www.fnac.com.br/index.html", "http://www.fnac.com.br/<BUSCA>", new FNACSearch() ) );
 		shops.add( new Shop( "Kabum", "http://www.kabum.com.br/", "http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=<BUSCA>&btnG=", new KabumSearch() ) );
 		shops.add( new Shop( "Livraria Cultura", "http://www.livrariacultura.com.br/", "http://www.livrariacultura.com.br/busca?N=0&Ntt=<BUSCA>", new LivrariaCulturaSearch() ) );
@@ -138,7 +138,7 @@ public class Main {
 		shops.add( new Shop( "Ricardo Eletro", "http://www.ricardoeletro.com.br/", "http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>", new RicardoEletroSearch() ) );
 		shops.add( new Shop( "RiHappy", "http://www.rihappy.com.br/", "http://www.rihappy.com.br/<BUSCA>", new RiHappySearch() ) );
 		shops.add( new Shop( "Saraiva", "http://www.saraiva.com.br/", "http://busca.saraiva.com.br/?q=<BUSCA>", new SaraivaSearch() ) );
-		shops.add( new Shop( "Shop Facil", "http://ww2.shopfacil.com.br/", "http://ww2.shopfacil.com.br/<BUSCA>", new ShopFacilSearch( )) );
+		shops.add( new Shop( "Shop Facil", "http://ww2.shopfacil.com.br/", "http://www.shopfacil.com.br/<BUSCA>", new ShopFacilSearch( )) );
 		shops.add( new Shop( "Shop Time", "http://www.shoptime.com.br/", "http://busca.shoptime.com.br/busca.php?q=<BUSCA>", new ShopTimeSearch()) );
 		shops.add( new Shop( "ShopB", "http://www.shopb.com.br/", "http://www.shopb.com.br/buscar?q=<BUSCA>", new ShopBSearch() ) );
 		shops.add( new Shop( "Submarino", "http://www.submarino.com.br/", "http://busca.submarino.com.br/busca.php?q=<BUSCA>", new SubmarinoSearch() ) );

@@ -72,8 +72,8 @@ public class FastShopSearch implements Search{
 					
 					price = document.select(".price").size() > 0 ? document.select(".price").first().html().toString().trim(): Keys.INDISPONIVEL;
 					
-					if( document.select(".titlebar h1").size() > 0 ){
-						gameCompleteName = document.select(".titlebar h1").	first().text();
+					if( document.select(".newTitleBar").size() > 0 ){
+						gameCompleteName = document.select(".newTitleBar").	first().text();
 					
 						products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 					}
