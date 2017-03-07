@@ -66,14 +66,13 @@ public class FNACSearch implements Search{
 				
 				if( filter.filter(previewName, productName) ){
 					
-					individualUrl = productContainer.select("a").first().attr("href");
+					individualUrl = productContainer.select(".x-product-image").first().attr("href");
 					
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select("#spanValorAtual").size() > 0 ? document.select("#spanValorAtual").text().trim(): Keys.INDISPONIVEL;
-	
-					gameCompleteName = document.select("#nomeProduto").text();
+					price = document.select(".preco-a-vista").size() > 0 ? document.select(".preco-a-vista").text().trim(): Keys.INDISPONIVEL;
+					gameCompleteName = document.select(".productName").first().text();
 					
 					products.add( new Product(gameCompleteName, "", individualUrl, productContainer, price ) );
 					
@@ -82,7 +81,7 @@ public class FNACSearch implements Search{
 				}
 			
 				element = element.nextElementSibling();
-			}while( element != null && element.className().equals("itemPesquisaQuadro" ) );
+			}while( element != null );
 		}
 		return products;
 	}

@@ -70,7 +70,7 @@ public class FastShopSearch implements Search{
 					document = Util.readUrlDocument( individualUrl );
 					System.out.println("\t\tAcessando URL do produto.");
 					
-					price = document.select(".price").size() > 0 ? document.select(".price").first().html().toString().trim(): Keys.INDISPONIVEL;
+					price = document.select("#prdPrice").size() > 0 ? document.select("#prdPrice").val().trim(): Keys.INDISPONIVEL;
 					
 					if( document.select(".newTitleBar").size() > 0 ){
 						gameCompleteName = document.select(".newTitleBar").	first().text();
