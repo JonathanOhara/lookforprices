@@ -1,0 +1,549 @@
+Game: metal gear solid collection
+Product Name: metal gear solid collection
+Loja: Nintendo eShop
+	URL Principal: http://www.nintendo.com/3ds/eshop
+	URL Busca: http://www.nintendo.com/json/content/get/game/filter?&qterm=<BUSCA>
+NintendoEShopSearch.search() http://www.nintendo.com/json/content/get/game/filter?&qterm=metal+gear+solid+collection
+		Documento Lido
+org.json.JSONException: JSONObject["game"] not found.
+	at org.json.JSONObject.get(JSONObject.java:476)
+	at interfaces.search.NintendoEShopSearch.search(NintendoEShopSearch.java:37)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtmlReport(Main.java:101)
+	at Main.main(Main.java:66)
+	Tempo Para buscar: 568
+Loja: PlayStation Store
+	URL Principal: https://store.playstation.com/#!/pt-br/home/main
+	URL Busca: https://store.playstation.com/#!/pt-br/pesquisar/q=<BUSCA>
+https://store.playstation.com/#!/pt-br/pesquisar/q=metal+gear+solid+collection
+		Documento Lido
+
+		Resultados: 0
+	Tempo Para buscar: 978
+Loja: Americanas
+	URL Principal: http://www.americanas.com.br/
+	URL Busca: http://busca.americanas.com.br/busca.php?q=<BUSCA>
+http://busca.americanas.com.br/busca.php?q=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 6
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection Psvita
+http://www.americanas.com.br/produto/8463375
+		Acessando URL do produto.
+		Nome do Produto: Metal Gear Solid Hd Collection - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Ps3 Metal Gear Solid Hd Collection - Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid Hd Collection - Favoritos - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid Hd Collection - XBOX 360
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1818
+Loja: Big Boy Games
+	URL Principal: http://www.bigboygames.com.br/
+	URL Busca: http://www.bigboygames.com.br/pesquisa/?p=<BUSCA>
+http://www.bigboygames.com.br/pesquisa/?p=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 7
+		Nome do Produto: Metal Gear Solid Hd Collection - XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PSV - Metal Gear Solid HD Collection
+http://www.bigboygames.com.br/psv-metal-gear-solid-hd-collection-p4231/
+		Acessando URL do produto.
+		Nome do Produto: PS3 - Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS3 - Metal Gear Solid: The Legacy Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS3 - Metal Gear Solid HD Collection - USADO
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS3 - Metal Gear Solid HD Collection + God of War Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS3 - Combo: Metal Gear Solid 4: GOP + God of War Collection
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 2025
+Loja: Balão da Informática
+	URL Principal: https://www.balaodainformatica.com.br/
+	URL Busca: http://www.balaodainformatica.com.br/digimon?&utmi_p=_Produtos_Buscar_&utmi_pc=BuscaFullText&utmi_cp=<BUSCA>
+http://www.balaodainformatica.com.br/digimon?&utmi_p=_Produtos_Buscar_&utmi_pc=BuscaFullText&utmi_cp=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1470
+Loja: Casas Bahia
+	URL Principal: http://www.casasbahia.com.br/
+	URL Busca: http://buscas.casasbahia.com.br/search?w=<BUSCA>
+http://buscas.casasbahia.com.br/search?w=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Metal Gear Solid: The Legacy Collection Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection (inclui três jogos da franquia) - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS Vita
+http://produto.casasbahia.com.br/?IdProduto=2682384&recsource=btermo&rectype=p1_op_s7
+		Acessando URL do produto.
+		Nome do Produto: Metal Gear Solid HD Collection PSVita
+http://produto.casasbahia.com.br/?IdProduto=3104229&recsource=btermo&rectype=p1_op_s8
+		Acessando URL do produto.
+		Nome do Produto: Jogo Metal Gear Solid: The Legacy Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 631
+Loja: Extra
+	URL Principal: http://www.extra.com.br/
+	URL Busca: http://buscando.extra.com.br/search?w=<BUSCA>
+http://buscando.extra.com.br/search?w=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 10
+		Nome do Produto: Metal Gear Solid: The Legacy Collection Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection (inclui três jogos da franquia) - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS Vita
+http://produto.extra.com.br/?IdProduto=2682384&recsource=btermo&rectype=p1_op_s7
+		Acessando URL do produto.
+		Nome do Produto: Metal Gear Solid HD Collection PSVita
+http://produto.extra.com.br/?IdProduto=3104229&recsource=btermo&rectype=p1_op_s8
+		Acessando URL do produto.
+		Nome do Produto: Jogo Metal Gear Solid: The Legacy Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 702
+Loja: E-Virtua
+	URL Principal: http://www.evirtua.com.br/
+	URL Busca: http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=<BUSCA>
+http://www.evirtua.com.br/Busca?search_department_id=0&SearchTerm=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 679
+Loja: Fast Games
+	URL Principal: http://www.fastgames.com.br/
+	URL Busca: http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=<BUSCA>
+http://www.fastgames.com.br/loja/busca.php?loja=187970&palavra_busca=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 2
+		Nome do Produto: Metal Gear Solid HD Collection (Seminovo) - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 520
+Loja: Fast Shop
+	URL Principal: http://www.fastshop.com.br/loja/
+	URL Busca: https://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=<BUSCA>&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop
+https://www.fastshop.com.br/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=metal+gear+solid+collection&categoryId=&storeId=10151&catalogId=11052&langId=-6&pageSize=9&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&hotsite=fastshop
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 500
+Loja: FNAC
+	URL Principal: http://www.fnac.com.br/index.html
+	URL Busca: http://www.fnac.com.br/<BUSCA>
+http://www.fnac.com.br/metal%20gear%20solid%20collection
+		Documento Lido
+		Resultados: 16
+		Nome do Produto: PS3 Metal Gear Solid: HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: METAL GEAR SOLID
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid - Sons of Liberty
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS3 METAL GEAR SOLID V: THE PHANTOM PAIN
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: XBOX 360 METAL GEAR SOLID V: THE PHANTOM PAIN DAY ONE EDITION
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS4 METAL GEAR SOLID V:THE PHANTOM PAIN
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PS3 METAL GEAR SOLID V:  GROUND ZEROES
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: XBOX ONE METAL GEAR SOLID V: THE PHANTOM PAIN DAY ONE EDITION
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: 
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1293
+Loja: Kabum
+	URL Principal: http://www.kabum.com.br/
+	URL Busca: http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=<BUSCA>&btnG=
+http://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=metal+gear+solid+collection&btnG=
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Game Metal Gear Solid HD Collection Edição Favoritos PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 830
+Loja: Livraria Cultura
+	URL Principal: http://www.livrariacultura.com.br/
+	URL Busca: http://www.livrariacultura.com.br/busca?N=0&Ntt=<BUSCA>
+http://www.livrariacultura.com.br/busca?N=0&Ntt=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 5
+		Nome do Produto: METAL GEAR SOLID - HD COLLECTION (PS3)
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: METAL GEAR SOLID HD COLLECTION
+http://www.livrariacultura.com.br/p/metal-gear-solid-hd-collection-29086183
+		Acessando URL do produto.
+		Nome do Produto: METAL GEAR SOLID HD COLLECTION (PSVITA)
+http://www.livrariacultura.com.br/p/metal-gear-solid-hd-collection-psvita-29784282
+		Acessando URL do produto.
+		Nome do Produto: METAL GEAR SOLID HD COLLECTION
+http://www.livrariacultura.com.br/p/metal-gear-solid-hd-collection-29086180
+		Acessando URL do produto.
+		Nome do Produto: METAL GEAR SOLID - THE LEGACY COLLECTION (PS3)
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1113
+Loja: Magazine Luiza
+	URL Principal: http://www.magazineluiza.com.br/
+	URL Busca: http://www.magazineluiza.com.br/busca/<BUSCA>/
+http://www.magazineluiza.com.br/busca/metal+gear+solid+collection/
+		Documento Lido
+		Resultados: 3
+		Nome do Produto: Jg Kon Xbox 360 Metal Gear Solid Hd Collection - KONAMI
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid: The Legacy Collection PS3 - KONAMI
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid: The Legacy Collection - PS3 - KONAMI
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 502
+Loja: Mula Games
+	URL Principal: http://www.mulagames.com.br/
+	URL Busca: https://www.mulagames.com.br/busca-busca_produtos?nome_produto=<BUSCA>
+https://www.mulagames.com.br/busca-busca_produtos?nome_produto=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 4
+		Nome do Produto: Metal Gear Solid: The Legacy Collection 1987-2012 - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PSV
+https://www.mulagames.com.br/Metal_Gear_Solid_HD_Collection_PSV/prod-467284/
+		Acessando URL do produto.
+		Nome do Produto: Metal Gear Solid HD Collection - XBox 360
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 2201
+Loja: Net Shoes
+	URL Principal: http://www.netshoes.com.br/
+	URL Busca: http://www.netshoes.com.br/search?Ntt=<BUSCA>
+http://www.netshoes.com.br/search?Ntt=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 786
+Loja: Ponto Frio
+	URL Principal: http://www.pontofrio.com.br/
+	URL Busca: http://search.pontofrio.com.br/search?w=<BUSCA>
+http://search.pontofrio.com.br/search?w=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 1
+		Nome do Produto: Metal Gear Solid: The Legacy Collection Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection (inclui três jogos da franquia) - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS Vita
+http://produto.pontofrio.com.br/?IdProduto=2682384&recsource=btermo&rectype=p1_op_s7
+		Nome do Produto: Metal Gear Solid HD Collection PSVita
+http://produto.pontofrio.com.br/?IdProduto=3104229&recsource=btermo&rectype=p1_op_s8
+		Nome do Produto: Jogo Metal Gear Solid: The Legacy Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid: The Legacy Collection Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection (inclui três jogos da franquia) - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS Vita
+http://produto.pontofrio.com.br/?IdProduto=2682384&recsource=btermo&rectype=p1_op_s7
+		Nome do Produto: Metal Gear Solid HD Collection PSVita
+http://produto.pontofrio.com.br/?IdProduto=3104229&recsource=btermo&rectype=p1_op_s8
+		Nome do Produto: Jogo Metal Gear Solid: The Legacy Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 918
+Loja: Ricardo Eletro
+	URL Principal: http://www.ricardoeletro.com.br/
+	URL Busca: http://www.ricardoeletro.com.br/Busca/Resultado/?q=<BUSCA>
+http://www.ricardoeletro.com.br/Busca/Resultado/?q=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 735
+Loja: RiHappy
+	URL Principal: http://www.rihappy.com.br/
+	URL Busca: http://www.rihappy.com.br/<BUSCA>
+http://www.rihappy.com.br/metal%20gear%20solid%20collection
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 1123
+Loja: Saraiva
+	URL Principal: http://www.saraiva.com.br/
+	URL Busca: http://busca.saraiva.com.br/?q=<BUSCA>
+http://busca.saraiva.com.br/?q=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 3
+		Nome do Produto: Kit Jogos Ps4 - Uncharted - The Nathan Drake Colle...
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid - HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 198
+Loja: Shop Facil
+	URL Principal: http://ww2.shopfacil.com.br/
+	URL Busca: http://www.shopfacil.com.br/<BUSCA>
+http://www.shopfacil.com.br/metal%20gear%20solid%20collection
+		Documento Lido
+		Resultados: 24
+		Nome do Produto: Jogo Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogos para PS3 Bayonetta Sega + Metal Gear Solid HD Collection Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console PS3 500GB com Controle sem fio Preto Sony + Jogos para PS3 Bayonetta Sega e Metal Gear Solid HD Collection Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid V: The Phantom Pain para PS4 - Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid- Ground Zeroes - Xbox One
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid V- The Phantom Pain - PS4
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid V: Ground Zeroes - Xbox One
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo para PS3 Metal Gear Solid V The Phantom Pain Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid 4: Guns of the Patriots
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid V: The Phantom Pain (Day One Edition) - Xbox 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid V: The Phantom Pain para Xbox 360 (X360) - Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid V- The Phantom Pain -Day One Edition- - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid V: The Phantom Pain (Day One Edition) - Xbox One
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 500GB Microsoft + Jogos Battlefield 1 Dice e Metal Gear Solid V: Ground Zeroes Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogos para Xbox One Metal Gear Solid V: Ground Zeroes + The Phanton Pain
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 500GB Microsoft + Jogos Gears of War Ultimate Edition Microsoft e Metal Gear Solid V: Ground Zeroes Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 1TB Ed. Exclusiva Call of Duty: Advanced Warefare (download) + Jogo Xbox One Metal Gear Solid V: Ground Zeroes Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 500GB Microsoft + Jogos Gears of War Ultimate Edition Microsoft e Metal Gear Solid V The Phantom Pain Day One Edition Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 500GB Microsoft + Fifa 16 EA Games (Via Download) + 1 Mês EA Access + Jogo Metal Gear Solid V The Phantom Pain Day One Edition Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 500GB Preto Microsoft + 1 Mês EA Access + Jogo FIFA 17 EA Sports + Jogo Metal Gear Solid V: The Phantom Pain Day One Edition Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One 500GB Preto Microsoft + 1 Mês de EA Access + Jogo FIFA 17 EA Sports + Jogo Metal Gear Solid V: Ground Zeroes Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console Xbox One Elite 1TB com 1 Controle Preto Microsoft + Jogo Xbox One Metal Gear Solid V: The Phantom Pain
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection p/ PS3 - Coleção Favoritos - Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 2091
+Loja: Shop Time
+	URL Principal: http://www.shoptime.com.br/
+	URL Busca: http://busca.shoptime.com.br/busca.php?q=<BUSCA>
+http://busca.shoptime.com.br/busca.php?q=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 7
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection Psvita
+http://www.shoptime.com.br/produto/8463375
+		Acessando URL do produto.
+		Nome do Produto: Game Metal Gear Solid: The Legacy Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Ps3 Metal Gear Solid Hd Collection - Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid Hd Collection - Favoritos - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid Hd Collection - XBox360
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1250
+Loja: ShopB
+	URL Principal: http://www.shopb.com.br/
+	URL Busca: http://www.shopb.com.br/buscar?q=<BUSCA>
+http://www.shopb.com.br/buscar?q=metal+gear+solid+collection
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:449)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:475)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:434)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:181)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:170)
+	at comom.Util.readUrlDocument(Util.java:94)
+	at interfaces.search.ShopBSearch.readResults(ShopBSearch.java:88)
+	at interfaces.search.ShopBSearch.search(ShopBSearch.java:30)
+	at objects.Shop.searchProduct(Shop.java:33)
+	at Main.generateHtmlReport(Main.java:101)
+	at Main.main(Main.java:66)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 22 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 28 more
+Tentando conectar Na Url de outro modo
+		Documento Lido
+		Resultados: 0
+	Tempo Para buscar: 737
+Loja: Submarino
+	URL Principal: http://www.submarino.com.br/
+	URL Busca: http://busca.submarino.com.br/busca.php?q=<BUSCA>
+http://busca.submarino.com.br/busca.php?q=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 6
+		Nome do Produto: Game - Metal Gear Solid HD Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection Psvita
+http://www.submarino.com.br/produto/8463375
+		Acessando URL do produto.
+		Nome do Produto: Jogo Ps3 Metal Gear Solid Hd Collection - Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game - Metal Gear Solid Hd Collection - Favoritos - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid Hd Collection - XBOX 360
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 4747
+Loja: Walmart
+	URL Principal: http://www.walmart.com.br/
+	URL Busca: http://www.walmart.com.br/busca/?ft=<BUSCA>&PS=20
+http://www.walmart.com.br/busca/?ft=metal+gear+solid+collection&PS=20
+		Documento Lido
+		Resultados: 20
+		Nome do Produto: Jogos para PS3 Bayonetta Sega + Metal Gear Solid HD Collection Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal gear solid: hd collection xbox 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console PS3 500GB com Controle sem fio Preto Sony + Jogos para PS3 Bayonetta Sega e Metal Gear Solid HD Collection Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Console PS3 500GB com Controle sem fio Preto Sony + Jogo para PS3 Metal Gear Solid HD Collection Konami
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid HD Collection Favoritos PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection - Favoritos - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo PS3 Metal Gear Solid HD Collection
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid HD Collection PS VITA
+http://www.walmart.com.br//www.walmart.com.br/metal-gear-solid-hd-collection-ps-vita/3881324/pr
+		Acessando URL do produto.
+		Nome do Produto: Jogo Metal Gear Solid, HD Collection PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal gear solid: the legacy collection ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Collection PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection X360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: PSVita Metal Gear Solid HD Collection
+http://www.walmart.com.br//www.walmart.com.br/psvita-metal-gear-solid-hd-collection/4827055/pr
+		Acessando URL do produto.
+		Nome do Produto: Metal Gear Solid HD Collection Favoritos - PS 3
+http://www.walmart.com.br//www.walmart.com.br/metal-gear-solid-hd-collection-favoritos-ps-3/4166675/pr
+		Acessando URL do produto.
+		Nome do Produto: Metal Gear Solid HD Collection XBOX 360
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Jogo Metal Gear Solid The Legacy Collection para PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid: The Legacy Collection PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Game Metal Gear Solid: The Legacy Collection - Ps3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid Hd Collection XBOX 360
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1944
+Loja: Zig Store
+	URL Principal: http://www.zigstore.com.br/
+	URL Busca: http://www.zigstore.com.br/pesquisa/?p=<BUSCA>
+http://www.zigstore.com.br/pesquisa/?p=metal+gear+solid+collection
+		Documento Lido
+		Resultados: 4
+		Nome do Produto: PS4 - Battleborn
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Xbox 360 - Skate 3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Metal Gear Solid V: The Phantom Pain - One Day Edition - PS3
+			Igorando Pelo Filtro de Nome...
+		Nome do Produto: Destiny - The Taken King - Edição Lendária - PS3
+			Igorando Pelo Filtro de Nome...
+	Tempo Para buscar: 1141
+
+File copied from E:\WorkSpaces\workspace estudo\lookforprices\resources\imports\css.css to E:\WorkSpaces\workspace estudo\lookforprices\reports\2017-03-18 20\css.css
+File copied from E:\WorkSpaces\workspace estudo\lookforprices\resources\imports\jquery.js to E:\WorkSpaces\workspace estudo\lookforprices\reports\2017-03-18 20\jquery.js
+File copied from E:\WorkSpaces\workspace estudo\lookforprices\resources\imports\scripts.js to E:\WorkSpaces\workspace estudo\lookforprices\reports\2017-03-18 20\scripts.js
+Tempo total de execução: 31509
